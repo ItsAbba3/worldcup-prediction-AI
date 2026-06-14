@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.DS_Store
+.claude/
+.playwright-mcp/
+.api_football_key
+sync_claude_history.sh
+*.log
+.env
+.env.*
+betting/state/
+betting/config.local.json

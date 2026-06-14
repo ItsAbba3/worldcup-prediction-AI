@@ -1,0 +1,25 @@
+{
+  "comment": "Corrections to international_results.csv, adjudicated against API-Football (primary source) during the 2026-06-09 data audit. Applied at load time by wc26_simulate.load_matches, so they survive CSV re-downloads. 'was' records the CSV's wrong value for provenance.",
+  "score_fixes": [
+    {"date": "2026-06-06", "home_team": "Jamaica", "away_team": "South Africa",
+     "home_score": 1, "away_score": 1, "was": "0-1"},
+    {"date": "2026-06-04", "home_team": "Guatemala", "away_team": "Czech Republic",
+     "home_score": 1, "away_score": 3, "was": "1-5"},
+    {"date": "2026-06-06", "home_team": "Bermuda", "away_team": "Cape Verde",
+     "home_score": 0, "away_score": 3, "was": "3-0 (CSV had the teams' scores reversed)"},
+    {"date": "2026-03-31", "home_team": "Czech Republic", "away_team": "Denmark",
+     "home_score": 1, "away_score": 1, "was": "2-2 (1-1 after 120 min, Czech won 3-1 on pens)"}
+  ],
+  "additions": [
+    {"date": "2026-01-18", "home_team": "Canada", "away_team": "Guatemala",
+     "home_score": 1, "away_score": 0, "tournament": "Friendly", "neutral": false},
+    {"date": "2025-12-16", "home_team": "DR Congo", "away_team": "Zambia",
+     "home_score": 2, "away_score": 0, "tournament": "Friendly", "neutral": false},
+    {"date": "2025-07-15", "home_team": "South Korea", "away_team": "Japan",
+     "home_score": 0, "away_score": 1, "tournament": "EAFF E-1 Football Championship", "neutral": false},
+    {"date": "2025-09-08", "home_team": "Iran", "away_team": "Uzbekistan",
+     "home_score": 0, "away_score": 1, "tournament": "CAFA Nations Cup", "neutral": false},
+    {"date": "2025-09-04", "home_team": "Tajikistan", "away_team": "Iran",
+     "home_score": 2, "away_score": 2, "tournament": "CAFA Nations Cup", "neutral": false}
+  ]
+}
