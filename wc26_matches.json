@@ -1,4098 +1,2738 @@
-{
-  "United States": {
-    "team_id": 2384,
-    "matches": [
+[
+  {
+    "match_id": 1489369,
+    "home": "Mexico",
+    "away": "South Africa",
+    "moneyline": {
+      "home": 0.7384,
+      "draw": 0.1917,
+      "away": 0.0699
+    },
+    "xg": {
+      "home": 2.263,
+      "away": 0.507
+    },
+    "top_scores": [
       {
-        "date": "2026-06-06",
-        "opponent": "Germany",
-        "home_away": "H",
-        "score": "1-2",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-05-31",
-        "opponent": "Senegal",
-        "home_away": "H",
-        "score": "3-2",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-31",
-        "opponent": "Portugal",
-        "home_away": "H",
-        "score": "0-2",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-28",
-        "opponent": "Belgium",
-        "home_away": "H",
-        "score": "2-5",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-11-19",
-        "opponent": "Uruguay",
-        "home_away": "H",
-        "score": "5-1",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-11-15",
-        "opponent": "Paraguay",
-        "home_away": "H",
-        "score": "2-1",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-10-15",
-        "opponent": "Australia",
-        "home_away": "H",
-        "score": "2-1",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-10-11",
-        "opponent": "Ecuador",
-        "home_away": "H",
-        "score": "1-1",
-        "result": "D",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-09-09",
-        "opponent": "Japan",
-        "home_away": "H",
         "score": "2-0",
-        "result": "W",
-        "competition": "Friendlies"
+        "p": 0.1496
       },
       {
-        "date": "2025-09-06",
-        "opponent": "South Korea",
-        "home_away": "H",
-        "score": "0-2",
-        "result": "L",
-        "competition": "Friendlies"
-      }
-    ]
-  },
-  "Canada": {
-    "team_id": 5529,
-    "matches": [
-      {
-        "date": "2026-06-05",
-        "opponent": "Rep. Of Ireland",
-        "home_away": "H",
-        "score": "1-1",
-        "result": "D",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-06-02",
-        "opponent": "Uzbekistan",
-        "home_away": "H",
-        "score": "2-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-31",
-        "opponent": "Tunisia",
-        "home_away": "H",
-        "score": "0-0",
-        "result": "D",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-28",
-        "opponent": "Iceland",
-        "home_away": "H",
-        "score": "2-2",
-        "result": "D",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-01-18",
-        "opponent": "Guatemala",
-        "home_away": "H",
         "score": "1-0",
-        "result": "W",
-        "competition": "Friendlies"
+        "p": 0.1424
       },
       {
-        "date": "2025-11-19",
-        "opponent": "Venezuela",
-        "home_away": "H",
-        "score": "2-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-11-14",
-        "opponent": "Ecuador",
-        "home_away": "H",
-        "score": "0-0",
-        "result": "D",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-10-15",
-        "opponent": "Colombia",
-        "home_away": "H",
-        "score": "0-0",
-        "result": "D",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-10-10",
-        "opponent": "Australia",
-        "home_away": "H",
-        "score": "0-1",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-09-09",
-        "opponent": "Wales",
-        "home_away": "A",
-        "score": "1-0",
-        "result": "W",
-        "competition": "Friendlies"
-      }
-    ]
-  },
-  "Mexico": {
-    "team_id": 16,
-    "matches": [
-      {
-        "date": "2026-06-05",
-        "opponent": "Serbia",
-        "home_away": "H",
-        "score": "5-1",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-05-31",
-        "opponent": "Australia",
-        "home_away": "H",
-        "score": "1-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-05-23",
-        "opponent": "Ghana",
-        "home_away": "H",
-        "score": "2-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-04-01",
-        "opponent": "Belgium",
-        "home_away": "H",
-        "score": "1-1",
-        "result": "D",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-29",
-        "opponent": "Portugal",
-        "home_away": "H",
-        "score": "0-0",
-        "result": "D",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-02-26",
-        "opponent": "Iceland",
-        "home_away": "H",
-        "score": "4-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-01-25",
-        "opponent": "Bolivia",
-        "home_away": "A",
-        "score": "1-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-01-23",
-        "opponent": "Panama",
-        "home_away": "A",
-        "score": "1-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-11-19",
-        "opponent": "Paraguay",
-        "home_away": "H",
-        "score": "1-2",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-11-16",
-        "opponent": "Uruguay",
-        "home_away": "H",
-        "score": "0-0",
-        "result": "D",
-        "competition": "Friendlies"
-      }
-    ]
-  },
-  "Panama": {
-    "team_id": 11,
-    "matches": [
-      {
-        "date": "2026-06-06",
-        "opponent": "Bosnia & Herzegovina",
-        "home_away": "H",
-        "score": "1-1",
-        "result": "D",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-06-04",
-        "opponent": "Dominican Republic",
-        "home_away": "H",
-        "score": "4-2",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-05-31",
-        "opponent": "Brazil",
-        "home_away": "A",
-        "score": "2-6",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-31",
-        "opponent": "South Africa",
-        "home_away": "A",
-        "score": "2-1",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-27",
-        "opponent": "South Africa",
-        "home_away": "A",
-        "score": "1-1",
-        "result": "D",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-01-23",
-        "opponent": "Mexico",
-        "home_away": "H",
-        "score": "0-1",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-01-18",
-        "opponent": "Bolivia",
-        "home_away": "A",
-        "score": "1-1",
-        "result": "D",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-11-19",
-        "opponent": "El Salvador",
-        "home_away": "H",
         "score": "3-0",
-        "result": "W",
-        "competition": "World Cup - Qualification CONCACAF"
+        "p": 0.1049
       },
       {
-        "date": "2025-11-14",
-        "opponent": "Guatemala",
-        "home_away": "A",
-        "score": "3-2",
-        "result": "W",
-        "competition": "World Cup - Qualification CONCACAF"
+        "score": "0-0",
+        "p": 0.0956
       },
       {
-        "date": "2025-10-15",
-        "opponent": "Suriname",
-        "home_away": "H",
         "score": "1-1",
-        "result": "D",
-        "competition": "World Cup - Qualification CONCACAF"
+        "p": 0.0748
       }
-    ]
+    ],
+    "totals": {},
+    "btts": null
   },
-  "Honduras": {
-    "team_id": 4672,
-    "matches": [
+  {
+    "match_id": 1538999,
+    "home": "South Korea",
+    "away": "Czech Republic",
+    "moneyline": {
+      "home": 0.4429,
+      "draw": 0.283,
+      "away": 0.2741
+    },
+    "xg": {
+      "home": 1.45,
+      "away": 1.084
+    },
+    "top_scores": [
       {
-        "date": "2026-06-07",
-        "opponent": "Argentina",
-        "home_away": "A",
-        "score": "0-2",
-        "result": "L",
-        "competition": "Friendlies"
+        "score": "1-1",
+        "p": 0.1204
       },
       {
-        "date": "2026-03-31",
-        "opponent": "Peru",
-        "home_away": "A",
-        "score": "2-2",
-        "result": "D",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-11-19",
-        "opponent": "Costa Rica",
-        "home_away": "A",
         "score": "0-0",
-        "result": "D",
-        "competition": "World Cup - Qualification CONCACAF"
+        "p": 0.1121
       },
       {
-        "date": "2025-11-14",
-        "opponent": "Nicaragua",
-        "home_away": "A",
-        "score": "0-2",
-        "result": "L",
-        "competition": "World Cup - Qualification CONCACAF"
+        "score": "1-0",
+        "p": 0.1074
       },
       {
-        "date": "2025-10-14",
-        "opponent": "Haiti",
-        "home_away": "H",
-        "score": "3-0",
-        "result": "W",
-        "competition": "World Cup - Qualification CONCACAF"
-      },
-      {
-        "date": "2025-10-10",
-        "opponent": "Costa Rica",
-        "home_away": "H",
-        "score": "0-0",
-        "result": "D",
-        "competition": "World Cup - Qualification CONCACAF"
-      },
-      {
-        "date": "2025-09-10",
-        "opponent": "Nicaragua",
-        "home_away": "H",
         "score": "2-0",
-        "result": "W",
-        "competition": "World Cup - Qualification CONCACAF"
+        "p": 0.0838
       },
       {
-        "date": "2025-09-06",
-        "opponent": "Haiti",
-        "home_away": "A",
-        "score": "0-0",
-        "result": "D",
-        "competition": "World Cup - Qualification CONCACAF"
-      },
-      {
-        "date": "2025-07-03",
-        "opponent": "Mexico",
-        "home_away": "A",
-        "score": "0-1",
-        "result": "L",
-        "competition": "CONCACAF Gold Cup"
-      },
-      {
-        "date": "2025-06-28",
-        "opponent": "Panama",
-        "home_away": "A",
-        "score": "1-1",
-        "result": "W",
-        "competition": "CONCACAF Gold Cup",
-        "note": "won 5-4 on penalties"
+        "score": "2-1",
+        "p": 0.0755
       }
-    ]
+    ],
+    "totals": {},
+    "btts": null
   },
-  "Jamaica": {
-    "team_id": 2385,
-    "matches": [
+  {
+    "match_id": 1539000,
+    "home": "Canada",
+    "away": "Bosnia and Herzegovina",
+    "moneyline": {
+      "home": 0.6308,
+      "draw": 0.2409,
+      "away": 0.1283
+    },
+    "xg": {
+      "home": 1.884,
+      "away": 0.661
+    },
+    "top_scores": [
       {
-        "date": "2026-06-06",
-        "opponent": "South Africa",
-        "home_away": "H",
-        "score": "1-1",
-        "result": "D",
-        "competition": "Friendlies"
+        "score": "1-0",
+        "p": 0.1378
       },
       {
-        "date": "2026-05-30",
-        "opponent": "Nigeria",
-        "home_away": "H",
+        "score": "2-0",
+        "p": 0.1268
+      },
+      {
+        "score": "0-0",
+        "p": 0.1117
+      },
+      {
+        "score": "1-1",
+        "p": 0.0977
+      },
+      {
+        "score": "3-0",
+        "p": 0.0784
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489370,
+    "home": "United States",
+    "away": "Paraguay",
+    "moneyline": {
+      "home": 0.3908,
+      "draw": 0.269,
+      "away": 0.3402
+    },
+    "xg": {
+      "home": 1.531,
+      "away": 1.392
+    },
+    "top_scores": [
+      {
+        "score": "1-1",
+        "p": 0.1173
+      },
+      {
+        "score": "0-0",
+        "p": 0.0843
+      },
+      {
+        "score": "2-1",
+        "p": 0.0764
+      },
+      {
+        "score": "1-0",
+        "p": 0.0737
+      },
+      {
+        "score": "0-1",
+        "p": 0.0709
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489373,
+    "home": "Qatar",
+    "away": "Switzerland",
+    "moneyline": {
+      "home": 0.1647,
+      "draw": 0.2439,
+      "away": 0.5914
+    },
+    "xg": {
+      "home": 0.853,
+      "away": 1.87
+    },
+    "top_scores": [
+      {
+        "score": "0-1",
+        "p": 0.1121
+      },
+      {
+        "score": "1-1",
+        "p": 0.1101
+      },
+      {
+        "score": "0-2",
+        "p": 0.1095
+      },
+      {
+        "score": "0-0",
+        "p": 0.0927
+      },
+      {
+        "score": "1-2",
+        "p": 0.0802
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489371,
+    "home": "Brazil",
+    "away": "Morocco",
+    "moneyline": {
+      "home": 0.4009,
+      "draw": 0.2931,
+      "away": 0.306
+    },
+    "xg": {
+      "home": 1.343,
+      "away": 1.179
+    },
+    "top_scores": [
+      {
+        "score": "1-1",
+        "p": 0.1235
+      },
+      {
+        "score": "0-0",
+        "p": 0.1161
+      },
+      {
+        "score": "1-0",
+        "p": 0.1016
+      },
+      {
+        "score": "0-1",
+        "p": 0.0836
+      },
+      {
+        "score": "2-1",
+        "p": 0.0775
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489372,
+    "home": "Haiti",
+    "away": "Scotland",
+    "moneyline": {
+      "home": 0.3756,
+      "draw": 0.2493,
+      "away": 0.3751
+    },
+    "xg": {
+      "home": 1.551,
+      "away": 1.578
+    },
+    "top_scores": [
+      {
+        "score": "1-1",
+        "p": 0.107
+      },
+      {
+        "score": "2-1",
+        "p": 0.0757
+      },
+      {
+        "score": "1-2",
+        "p": 0.0728
+      },
+      {
+        "score": "0-0",
+        "p": 0.0692
+      },
+      {
+        "score": "0-1",
+        "p": 0.065
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1539001,
+    "home": "Australia",
+    "away": "Turkey",
+    "moneyline": {
+      "home": 0.3192,
+      "draw": 0.284,
+      "away": 0.3968
+    },
+    "xg": {
+      "home": 1.216,
+      "away": 1.382
+    },
+    "top_scores": [
+      {
+        "score": "1-1",
+        "p": 0.122
+      },
+      {
+        "score": "0-0",
+        "p": 0.106
+      },
+      {
+        "score": "0-1",
+        "p": 0.0902
+      },
+      {
+        "score": "1-0",
+        "p": 0.0811
+      },
+      {
+        "score": "1-2",
+        "p": 0.076
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489374,
+    "home": "Germany",
+    "away": "Curaçao",
+    "moneyline": {
+      "home": 0.6549,
+      "draw": 0.1907,
+      "away": 0.1544
+    },
+    "xg": {
+      "home": 2.628,
+      "away": 1.106
+    },
+    "top_scores": [
+      {
+        "score": "2-0",
+        "p": 0.0839
+      },
+      {
+        "score": "1-1",
+        "p": 0.0782
+      },
+      {
+        "score": "2-1",
+        "p": 0.0779
+      },
+      {
+        "score": "3-0",
+        "p": 0.067
+      },
+      {
+        "score": "1-0",
+        "p": 0.0625
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489376,
+    "home": "Netherlands",
+    "away": "Japan",
+    "moneyline": {
+      "home": 0.2743,
+      "draw": 0.304,
+      "away": 0.4217
+    },
+    "xg": {
+      "home": 1.015,
+      "away": 1.324
+    },
+    "top_scores": [
+      {
+        "score": "0-0",
+        "p": 0.1304
+      },
+      {
+        "score": "1-1",
+        "p": 0.1272
+      },
+      {
+        "score": "0-1",
+        "p": 0.1158
+      },
+      {
+        "score": "1-0",
+        "p": 0.0847
+      },
+      {
+        "score": "0-2",
+        "p": 0.0832
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489375,
+    "home": "Ivory Coast",
+    "away": "Ecuador",
+    "moneyline": {
+      "home": 0.3624,
+      "draw": 0.3349,
+      "away": 0.3027
+    },
+    "xg": {
+      "home": 1.018,
+      "away": 0.916
+    },
+    "top_scores": [
+      {
+        "score": "0-0",
+        "p": 0.1765
+      },
+      {
+        "score": "1-0",
+        "p": 0.1365
+      },
+      {
+        "score": "1-1",
+        "p": 0.1265
+      },
+      {
+        "score": "0-1",
+        "p": 0.1188
+      },
+      {
+        "score": "2-0",
+        "p": 0.0754
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1539002,
+    "home": "Sweden",
+    "away": "Tunisia",
+    "moneyline": {
+      "home": 0.321,
+      "draw": 0.2642,
+      "away": 0.4148
+    },
+    "xg": {
+      "home": 1.288,
+      "away": 1.518
+    },
+    "top_scores": [
+      {
+        "score": "1-1",
+        "p": 0.1108
+      },
+      {
+        "score": "0-0",
+        "p": 0.0916
+      },
+      {
+        "score": "0-1",
+        "p": 0.0835
+      },
+      {
+        "score": "1-2",
+        "p": 0.0781
+      },
+      {
+        "score": "1-0",
+        "p": 0.0723
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489380,
+    "home": "Spain",
+    "away": "Cape Verde",
+    "moneyline": {
+      "home": 0.5757,
+      "draw": 0.2461,
+      "away": 0.1782
+    },
+    "xg": {
+      "home": 1.891,
+      "away": 0.883
+    },
+    "top_scores": [
+      {
+        "score": "1-0",
+        "p": 0.1077
+      },
+      {
+        "score": "2-0",
+        "p": 0.1072
+      },
+      {
+        "score": "1-1",
+        "p": 0.1029
+      },
+      {
+        "score": "0-0",
+        "p": 0.0977
+      },
+      {
+        "score": "2-1",
+        "p": 0.0818
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489377,
+    "home": "Belgium",
+    "away": "Egypt",
+    "moneyline": {
+      "home": 0.7177,
+      "draw": 0.1892,
+      "away": 0.0931
+    },
+    "xg": {
+      "home": 2.356,
+      "away": 0.65
+    },
+    "top_scores": [
+      {
+        "score": "2-0",
+        "p": 0.1277
+      },
+      {
+        "score": "1-0",
+        "p": 0.1171
+      },
+      {
+        "score": "3-0",
+        "p": 0.0929
+      },
+      {
+        "score": "1-1",
+        "p": 0.0809
+      },
+      {
+        "score": "0-0",
+        "p": 0.077
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489379,
+    "home": "Saudi Arabia",
+    "away": "Uruguay",
+    "moneyline": {
+      "home": 0.1357,
+      "draw": 0.2878,
+      "away": 0.5765
+    },
+    "xg": {
+      "home": 0.606,
+      "away": 1.572
+    },
+    "top_scores": [
+      {
+        "score": "0-1",
+        "p": 0.1588
+      },
+      {
+        "score": "0-0",
+        "p": 0.1473
+      },
+      {
+        "score": "0-2",
+        "p": 0.1273
+      },
+      {
+        "score": "1-1",
+        "p": 0.1166
+      },
+      {
         "score": "0-3",
-        "result": "L",
-        "competition": "Friendlies"
-      },
+        "p": 0.0751
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489378,
+    "home": "Iran",
+    "away": "New Zealand",
+    "moneyline": {
+      "home": 0.6584,
+      "draw": 0.2024,
+      "away": 0.1392
+    },
+    "xg": {
+      "home": 2.335,
+      "away": 0.893
+    },
+    "top_scores": [
       {
-        "date": "2026-05-27",
-        "opponent": "India",
-        "home_away": "H",
         "score": "2-0",
-        "result": "W",
-        "competition": "Friendlies"
+        "p": 0.1025
       },
       {
-        "date": "2026-03-31",
-        "opponent": "Congo DR",
-        "home_away": "A",
+        "score": "1-1",
+        "p": 0.0884
+      },
+      {
+        "score": "2-1",
+        "p": 0.085
+      },
+      {
+        "score": "1-0",
+        "p": 0.0828
+      },
+      {
+        "score": "3-0",
+        "p": 0.0726
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489383,
+    "home": "France",
+    "away": "Senegal",
+    "moneyline": {
+      "home": 0.4456,
+      "draw": 0.2642,
+      "away": 0.2902
+    },
+    "xg": {
+      "home": 1.628,
+      "away": 1.268
+    },
+    "top_scores": [
+      {
+        "score": "1-1",
+        "p": 0.1153
+      },
+      {
+        "score": "1-0",
+        "p": 0.0866
+      },
+      {
+        "score": "0-0",
+        "p": 0.0846
+      },
+      {
+        "score": "2-1",
+        "p": 0.0781
+      },
+      {
+        "score": "2-0",
+        "p": 0.0704
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1539016,
+    "home": "Iraq",
+    "away": "Norway",
+    "moneyline": {
+      "home": 0.2719,
+      "draw": 0.3008,
+      "away": 0.4273
+    },
+    "xg": {
+      "home": 0.931,
+      "away": 1.277
+    },
+    "top_scores": [
+      {
+        "score": "0-0",
+        "p": 0.1414
+      },
+      {
+        "score": "1-1",
+        "p": 0.122
+      },
+      {
         "score": "0-1",
-        "result": "L",
-        "competition": "World Cup - Qualification Intercontinental Play-offs"
+        "p": 0.1169
       },
       {
-        "date": "2026-03-27",
-        "opponent": "New Caledonia",
-        "home_away": "A",
         "score": "1-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Intercontinental Play-offs"
+        "p": 0.1002
       },
       {
-        "date": "2026-02-21",
-        "opponent": "Martinique",
-        "home_away": "A",
-        "score": "2-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-01-18",
-        "opponent": "Grenada",
-        "home_away": "A",
-        "score": "1-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-11-19",
-        "opponent": "Curaçao",
-        "home_away": "H",
-        "score": "0-0",
-        "result": "D",
-        "competition": "World Cup - Qualification CONCACAF"
-      },
-      {
-        "date": "2025-11-14",
-        "opponent": "Trinidad and Tobago",
-        "home_away": "A",
-        "score": "1-1",
-        "result": "D",
-        "competition": "World Cup - Qualification CONCACAF"
-      },
-      {
-        "date": "2025-10-15",
-        "opponent": "Bermuda",
-        "home_away": "H",
-        "score": "4-0",
-        "result": "W",
-        "competition": "World Cup - Qualification CONCACAF"
-      }
-    ]
-  },
-  "Argentina": {
-    "team_id": 26,
-    "matches": [
-      {
-        "date": "2026-06-07",
-        "opponent": "Honduras",
-        "home_away": "H",
-        "score": "2-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-31",
-        "opponent": "Zambia",
-        "home_away": "H",
-        "score": "5-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-27",
-        "opponent": "Mauritania",
-        "home_away": "H",
-        "score": "2-1",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-11-14",
-        "opponent": "Angola",
-        "home_away": "A",
-        "score": "2-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-10-15",
-        "opponent": "Puerto Rico",
-        "home_away": "A",
-        "score": "6-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-10-11",
-        "opponent": "Venezuela",
-        "home_away": "H",
-        "score": "1-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-09-09",
-        "opponent": "Ecuador",
-        "home_away": "A",
-        "score": "0-1",
-        "result": "L",
-        "competition": "World Cup - Qualification South America"
-      },
-      {
-        "date": "2025-09-04",
-        "opponent": "Venezuela",
-        "home_away": "H",
-        "score": "3-0",
-        "result": "W",
-        "competition": "World Cup - Qualification South America"
-      },
-      {
-        "date": "2025-06-11",
-        "opponent": "Colombia",
-        "home_away": "H",
-        "score": "1-1",
-        "result": "D",
-        "competition": "World Cup - Qualification South America"
-      },
-      {
-        "date": "2025-06-06",
-        "opponent": "Chile",
-        "home_away": "A",
-        "score": "1-0",
-        "result": "W",
-        "competition": "World Cup - Qualification South America"
-      }
-    ]
-  },
-  "Brazil": {
-    "team_id": 6,
-    "matches": [
-      {
-        "date": "2026-06-06",
-        "opponent": "Egypt",
-        "home_away": "H",
-        "score": "2-1",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-05-31",
-        "opponent": "Panama",
-        "home_away": "H",
-        "score": "6-2",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-04-01",
-        "opponent": "Croatia",
-        "home_away": "H",
-        "score": "3-1",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-26",
-        "opponent": "France",
-        "home_away": "H",
-        "score": "1-2",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-11-18",
-        "opponent": "Tunisia",
-        "home_away": "H",
-        "score": "1-1",
-        "result": "D",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-11-15",
-        "opponent": "Senegal",
-        "home_away": "H",
-        "score": "2-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-10-14",
-        "opponent": "Japan",
-        "home_away": "A",
-        "score": "2-3",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-10-10",
-        "opponent": "South Korea",
-        "home_away": "A",
-        "score": "5-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-09-09",
-        "opponent": "Bolivia",
-        "home_away": "A",
-        "score": "0-1",
-        "result": "L",
-        "competition": "World Cup - Qualification South America"
-      },
-      {
-        "date": "2025-09-05",
-        "opponent": "Chile",
-        "home_away": "H",
-        "score": "3-0",
-        "result": "W",
-        "competition": "World Cup - Qualification South America"
-      }
-    ]
-  },
-  "Colombia": {
-    "team_id": 8,
-    "matches": [
-      {
-        "date": "2026-06-07",
-        "opponent": "Jordan",
-        "home_away": "H",
-        "score": "2-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-06-01",
-        "opponent": "Costa Rica",
-        "home_away": "H",
-        "score": "3-1",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-29",
-        "opponent": "France",
-        "home_away": "H",
-        "score": "1-3",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-26",
-        "opponent": "Croatia",
-        "home_away": "H",
-        "score": "1-2",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-11-19",
-        "opponent": "Australia",
-        "home_away": "H",
-        "score": "3-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-11-16",
-        "opponent": "New Zealand",
-        "home_away": "H",
-        "score": "2-1",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-10-15",
-        "opponent": "Canada",
-        "home_away": "A",
-        "score": "0-0",
-        "result": "D",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-10-12",
-        "opponent": "Mexico",
-        "home_away": "A",
-        "score": "4-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-09-09",
-        "opponent": "Venezuela",
-        "home_away": "A",
-        "score": "6-3",
-        "result": "W",
-        "competition": "World Cup - Qualification South America"
-      },
-      {
-        "date": "2025-09-04",
-        "opponent": "Bolivia",
-        "home_away": "H",
-        "score": "3-0",
-        "result": "W",
-        "competition": "World Cup - Qualification South America"
-      }
-    ]
-  },
-  "Uruguay": {
-    "team_id": 7,
-    "matches": [
-      {
-        "date": "2026-03-31",
-        "opponent": "Algeria",
-        "home_away": "A",
-        "score": "0-0",
-        "result": "D",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-27",
-        "opponent": "England",
-        "home_away": "A",
-        "score": "1-1",
-        "result": "D",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-11-19",
-        "opponent": "USA",
-        "home_away": "A",
-        "score": "1-5",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-11-16",
-        "opponent": "Mexico",
-        "home_away": "A",
-        "score": "0-0",
-        "result": "D",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-10-13",
-        "opponent": "Uzbekistan",
-        "home_away": "A",
-        "score": "2-1",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-10-10",
-        "opponent": "Dominican Republic",
-        "home_away": "H",
-        "score": "1-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-09-09",
-        "opponent": "Chile",
-        "home_away": "A",
-        "score": "0-0",
-        "result": "D",
-        "competition": "World Cup - Qualification South America"
-      },
-      {
-        "date": "2025-09-04",
-        "opponent": "Peru",
-        "home_away": "H",
-        "score": "3-0",
-        "result": "W",
-        "competition": "World Cup - Qualification South America"
-      },
-      {
-        "date": "2025-06-10",
-        "opponent": "Venezuela",
-        "home_away": "H",
-        "score": "2-0",
-        "result": "W",
-        "competition": "World Cup - Qualification South America"
-      },
-      {
-        "date": "2025-06-05",
-        "opponent": "Paraguay",
-        "home_away": "A",
         "score": "0-2",
-        "result": "L",
-        "competition": "World Cup - Qualification South America"
+        "p": 0.0906
       }
-    ]
+    ],
+    "totals": {},
+    "btts": null
   },
-  "Ecuador": {
-    "team_id": 2382,
-    "matches": [
+  {
+    "match_id": 1489381,
+    "home": "Argentina",
+    "away": "Algeria",
+    "moneyline": {
+      "home": 0.41,
+      "draw": 0.3176,
+      "away": 0.2724
+    },
+    "xg": {
+      "home": 1.218,
+      "away": 0.949
+    },
+    "top_scores": [
       {
-        "date": "2026-06-07",
-        "opponent": "Guatemala",
-        "home_away": "H",
-        "score": "3-0",
-        "result": "W",
-        "competition": "Friendlies"
+        "score": "0-0",
+        "p": 0.1499
       },
       {
-        "date": "2026-05-31",
-        "opponent": "Saudi Arabia",
-        "home_away": "H",
-        "score": "2-1",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-31",
-        "opponent": "Netherlands",
-        "home_away": "A",
         "score": "1-1",
-        "result": "D",
-        "competition": "Friendlies"
+        "p": 0.1277
       },
       {
-        "date": "2026-03-27",
-        "opponent": "Morocco",
-        "home_away": "A",
-        "score": "1-1",
-        "result": "D",
-        "competition": "Friendlies"
+        "score": "1-0",
+        "p": 0.1271
       },
       {
-        "date": "2025-11-19",
-        "opponent": "New Zealand",
-        "home_away": "H",
+        "score": "0-1",
+        "p": 0.0984
+      },
+      {
         "score": "2-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-11-14",
-        "opponent": "Canada",
-        "home_away": "A",
-        "score": "0-0",
-        "result": "D",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-10-15",
-        "opponent": "Mexico",
-        "home_away": "A",
-        "score": "1-1",
-        "result": "D",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-10-11",
-        "opponent": "USA",
-        "home_away": "A",
-        "score": "1-1",
-        "result": "D",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-09-09",
-        "opponent": "Argentina",
-        "home_away": "H",
-        "score": "1-0",
-        "result": "W",
-        "competition": "World Cup - Qualification South America"
-      },
-      {
-        "date": "2025-09-04",
-        "opponent": "Paraguay",
-        "home_away": "A",
-        "score": "0-0",
-        "result": "D",
-        "competition": "World Cup - Qualification South America"
+        "p": 0.0857
       }
-    ]
+    ],
+    "totals": {},
+    "btts": null
   },
-  "Paraguay": {
-    "team_id": 2380,
-    "matches": [
+  {
+    "match_id": 1489382,
+    "home": "Austria",
+    "away": "Jordan",
+    "moneyline": {
+      "home": 0.3925,
+      "draw": 0.2646,
+      "away": 0.3429
+    },
+    "xg": {
+      "home": 1.456,
+      "away": 1.316
+    },
+    "top_scores": [
       {
-        "date": "2026-06-05",
-        "opponent": "Nicaragua",
-        "home_away": "H",
-        "score": "4-0",
-        "result": "W",
-        "competition": "Friendlies"
+        "score": "1-1",
+        "p": 0.1128
       },
       {
-        "date": "2026-03-31",
-        "opponent": "Morocco",
-        "home_away": "A",
-        "score": "1-2",
-        "result": "L",
-        "competition": "Friendlies"
+        "score": "0-0",
+        "p": 0.0928
       },
       {
-        "date": "2026-03-27",
-        "opponent": "Greece",
-        "home_away": "A",
         "score": "1-0",
-        "result": "W",
-        "competition": "Friendlies"
+        "p": 0.0825
       },
       {
-        "date": "2025-11-19",
-        "opponent": "Mexico",
-        "home_away": "A",
+        "score": "0-1",
+        "p": 0.0744
+      },
+      {
         "score": "2-1",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-11-15",
-        "opponent": "USA",
-        "home_away": "A",
-        "score": "1-2",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-10-14",
-        "opponent": "South Korea",
-        "home_away": "A",
-        "score": "0-2",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-10-10",
-        "opponent": "Japan",
-        "home_away": "A",
-        "score": "2-2",
-        "result": "D",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-09-09",
-        "opponent": "Peru",
-        "home_away": "A",
-        "score": "1-0",
-        "result": "W",
-        "competition": "World Cup - Qualification South America"
-      },
-      {
-        "date": "2025-09-04",
-        "opponent": "Ecuador",
-        "home_away": "H",
-        "score": "0-0",
-        "result": "D",
-        "competition": "World Cup - Qualification South America"
-      },
-      {
-        "date": "2025-06-11",
-        "opponent": "Brazil",
-        "home_away": "A",
-        "score": "0-1",
-        "result": "L",
-        "competition": "World Cup - Qualification South America"
+        "p": 0.0726
       }
-    ]
+    ],
+    "totals": {},
+    "btts": null
   },
-  "Venezuela": {
-    "team_id": 2379,
-    "matches": [
+  {
+    "match_id": 1539003,
+    "home": "Portugal",
+    "away": "DR Congo",
+    "moneyline": {
+      "home": 0.4145,
+      "draw": 0.3472,
+      "away": 0.2383
+    },
+    "xg": {
+      "home": 1.094,
+      "away": 0.735
+    },
+    "top_scores": [
       {
-        "date": "2026-06-06",
-        "opponent": "Türkiye",
-        "home_away": "H",
-        "score": "1-2",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-30",
-        "opponent": "Uzbekistan",
-        "home_away": "A",
         "score": "0-0",
-        "result": "L",
-        "competition": "FIFA Series",
-        "note": "lost 4-5 on penalties"
+        "p": 0.1933
       },
       {
-        "date": "2026-03-27",
-        "opponent": "Trinidad and Tobago",
-        "home_away": "H",
-        "score": "4-1",
-        "result": "W",
-        "competition": "FIFA Series"
-      },
-      {
-        "date": "2025-11-19",
-        "opponent": "Canada",
-        "home_away": "A",
-        "score": "0-2",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-11-15",
-        "opponent": "Australia",
-        "home_away": "H",
         "score": "1-0",
-        "result": "W",
-        "competition": "Friendlies"
+        "p": 0.1562
       },
       {
-        "date": "2025-10-11",
-        "opponent": "Argentina",
-        "home_away": "A",
+        "score": "1-1",
+        "p": 0.1268
+      },
+      {
         "score": "0-1",
-        "result": "L",
-        "competition": "Friendlies"
+        "p": 0.11
       },
       {
-        "date": "2025-09-09",
-        "opponent": "Colombia",
-        "home_away": "H",
-        "score": "3-6",
-        "result": "L",
-        "competition": "World Cup - Qualification South America"
+        "score": "2-0",
+        "p": 0.0942
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489384,
+    "home": "England",
+    "away": "Croatia",
+    "moneyline": {
+      "home": 0.4138,
+      "draw": 0.3145,
+      "away": 0.2717
+    },
+    "xg": {
+      "home": 1.248,
+      "away": 0.94
+    },
+    "top_scores": [
+      {
+        "score": "0-0",
+        "p": 0.142
       },
       {
-        "date": "2025-09-04",
-        "opponent": "Argentina",
-        "home_away": "A",
+        "score": "1-1",
+        "p": 0.1284
+      },
+      {
+        "score": "1-0",
+        "p": 0.1207
+      },
+      {
+        "score": "0-1",
+        "p": 0.0953
+      },
+      {
+        "score": "2-0",
+        "p": 0.0813
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489385,
+    "home": "Ghana",
+    "away": "Panama",
+    "moneyline": {
+      "home": 0.2811,
+      "draw": 0.2515,
+      "away": 0.4674
+    },
+    "xg": {
+      "home": 1.235,
+      "away": 1.683
+    },
+    "top_scores": [
+      {
+        "score": "1-1",
+        "p": 0.1088
+      },
+      {
+        "score": "0-1",
+        "p": 0.0841
+      },
+      {
+        "score": "1-2",
+        "p": 0.0826
+      },
+      {
+        "score": "0-0",
+        "p": 0.0823
+      },
+      {
+        "score": "0-2",
+        "p": 0.0755
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489386,
+    "home": "Uzbekistan",
+    "away": "Colombia",
+    "moneyline": {
+      "home": 0.1473,
+      "draw": 0.2865,
+      "away": 0.5662
+    },
+    "xg": {
+      "home": 0.607,
+      "away": 1.484
+    },
+    "top_scores": [
+      {
+        "score": "0-1",
+        "p": 0.1732
+      },
+      {
+        "score": "0-0",
+        "p": 0.1518
+      },
+      {
+        "score": "0-2",
+        "p": 0.126
+      },
+      {
+        "score": "1-1",
+        "p": 0.1094
+      },
+      {
         "score": "0-3",
-        "result": "L",
-        "competition": "World Cup - Qualification South America"
-      },
-      {
-        "date": "2025-06-10",
-        "opponent": "Uruguay",
-        "home_away": "A",
-        "score": "0-2",
-        "result": "L",
-        "competition": "World Cup - Qualification South America"
-      },
-      {
-        "date": "2025-06-06",
-        "opponent": "Bolivia",
-        "home_away": "H",
-        "score": "2-0",
-        "result": "W",
-        "competition": "World Cup - Qualification South America"
+        "p": 0.0704
       }
-    ]
+    ],
+    "totals": {},
+    "btts": null
   },
-  "Germany": {
-    "team_id": 25,
-    "matches": [
+  {
+    "match_id": 1539004,
+    "home": "Czech Republic",
+    "away": "South Africa",
+    "moneyline": {
+      "home": 0.5014,
+      "draw": 0.278,
+      "away": 0.2206
+    },
+    "xg": {
+      "home": 1.55,
+      "away": 0.893
+    },
+    "top_scores": [
       {
-        "date": "2026-06-06",
-        "opponent": "USA",
-        "home_away": "A",
-        "score": "2-1",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-05-31",
-        "opponent": "Finland",
-        "home_away": "H",
-        "score": "4-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-30",
-        "opponent": "Ghana",
-        "home_away": "H",
-        "score": "2-1",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-27",
-        "opponent": "Switzerland",
-        "home_away": "A",
-        "score": "4-3",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-11-17",
-        "opponent": "Slovakia",
-        "home_away": "H",
-        "score": "6-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-11-14",
-        "opponent": "Luxembourg",
-        "home_away": "A",
-        "score": "2-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-10-13",
-        "opponent": "Northern Ireland",
-        "home_away": "A",
-        "score": "1-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-10-10",
-        "opponent": "Luxembourg",
-        "home_away": "H",
-        "score": "4-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-09-07",
-        "opponent": "Northern Ireland",
-        "home_away": "H",
-        "score": "3-1",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-09-04",
-        "opponent": "Slovakia",
-        "home_away": "A",
-        "score": "0-2",
-        "result": "L",
-        "competition": "World Cup - Qualification Europe"
-      }
-    ]
-  },
-  "England": {
-    "team_id": 10,
-    "matches": [
-      {
-        "date": "2026-06-06",
-        "opponent": "New Zealand",
-        "home_away": "H",
-        "score": "1-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-31",
-        "opponent": "Japan",
-        "home_away": "H",
-        "score": "0-1",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-27",
-        "opponent": "Uruguay",
-        "home_away": "H",
         "score": "1-1",
-        "result": "D",
-        "competition": "Friendlies"
+        "p": 0.1222
       },
       {
-        "date": "2025-11-16",
-        "opponent": "Albania",
-        "home_away": "A",
+        "score": "1-0",
+        "p": 0.1193
+      },
+      {
+        "score": "0-0",
+        "p": 0.1165
+      },
+      {
         "score": "2-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
+        "p": 0.1035
       },
       {
-        "date": "2025-11-13",
-        "opponent": "Serbia",
-        "home_away": "H",
-        "score": "2-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-10-14",
-        "opponent": "Latvia",
-        "home_away": "A",
-        "score": "5-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-10-09",
-        "opponent": "Wales",
-        "home_away": "H",
-        "score": "3-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-09-09",
-        "opponent": "Serbia",
-        "home_away": "A",
-        "score": "5-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-09-06",
-        "opponent": "Andorra",
-        "home_away": "H",
-        "score": "2-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-06-10",
-        "opponent": "Senegal",
-        "home_away": "H",
-        "score": "1-3",
-        "result": "L",
-        "competition": "Friendlies"
+        "score": "0-1",
+        "p": 0.0749
       }
-    ]
+    ],
+    "totals": {},
+    "btts": null
   },
-  "France": {
-    "team_id": 2,
-    "matches": [
+  {
+    "match_id": 1539005,
+    "home": "Switzerland",
+    "away": "Bosnia and Herzegovina",
+    "moneyline": {
+      "home": 0.6069,
+      "draw": 0.2511,
+      "away": 0.142
+    },
+    "xg": {
+      "home": 1.78,
+      "away": 0.684
+    },
+    "top_scores": [
       {
-        "date": "2026-06-08",
-        "opponent": "Northern Ireland",
-        "home_away": "H",
-        "score": "3-1",
-        "result": "W",
-        "competition": "Friendlies"
+        "score": "1-0",
+        "p": 0.1388
       },
       {
-        "date": "2026-06-04",
-        "opponent": "Ivory Coast",
-        "home_away": "H",
+        "score": "2-0",
+        "p": 0.1261
+      },
+      {
+        "score": "0-0",
+        "p": 0.1203
+      },
+      {
+        "score": "1-1",
+        "p": 0.0999
+      },
+      {
+        "score": "3-0",
+        "p": 0.0748
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489387,
+    "home": "Canada",
+    "away": "Qatar",
+    "moneyline": {
+      "home": 0.6088,
+      "draw": 0.2365,
+      "away": 0.1547
+    },
+    "xg": {
+      "home": 1.986,
+      "away": 0.825
+    },
+    "top_scores": [
+      {
+        "score": "2-0",
+        "p": 0.1117
+      },
+      {
+        "score": "1-0",
+        "p": 0.1077
+      },
+      {
+        "score": "1-1",
+        "p": 0.1027
+      },
+      {
+        "score": "0-0",
+        "p": 0.0908
+      },
+      {
+        "score": "2-1",
+        "p": 0.0827
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489388,
+    "home": "Mexico",
+    "away": "South Korea",
+    "moneyline": {
+      "home": 0.5137,
+      "draw": 0.2731,
+      "away": 0.2132
+    },
+    "xg": {
+      "home": 1.627,
+      "away": 0.932
+    },
+    "top_scores": [
+      {
+        "score": "1-0",
+        "p": 0.121
+      },
+      {
+        "score": "1-1",
+        "p": 0.1207
+      },
+      {
+        "score": "0-0",
+        "p": 0.106
+      },
+      {
+        "score": "2-0",
+        "p": 0.0906
+      },
+      {
+        "score": "2-1",
+        "p": 0.0813
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489391,
+    "home": "United States",
+    "away": "Australia",
+    "moneyline": {
+      "home": 0.3634,
+      "draw": 0.2495,
+      "away": 0.3871
+    },
+    "xg": {
+      "home": 1.522,
+      "away": 1.61
+    },
+    "top_scores": [
+      {
+        "score": "1-1",
+        "p": 0.1083
+      },
+      {
         "score": "1-2",
-        "result": "L",
-        "competition": "Friendlies"
+        "p": 0.0727
       },
       {
-        "date": "2026-03-29",
-        "opponent": "Colombia",
-        "home_away": "A",
-        "score": "3-1",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-26",
-        "opponent": "Brazil",
-        "home_away": "A",
-        "score": "2-1",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-11-16",
-        "opponent": "Azerbaijan",
-        "home_away": "A",
-        "score": "3-1",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-11-13",
-        "opponent": "Ukraine",
-        "home_away": "H",
-        "score": "4-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-10-13",
-        "opponent": "Iceland",
-        "home_away": "A",
-        "score": "2-2",
-        "result": "D",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-10-10",
-        "opponent": "Azerbaijan",
-        "home_away": "H",
-        "score": "3-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-09-09",
-        "opponent": "Iceland",
-        "home_away": "H",
-        "score": "2-1",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-09-05",
-        "opponent": "Ukraine",
-        "home_away": "A",
-        "score": "2-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      }
-    ]
-  },
-  "Spain": {
-    "team_id": 9,
-    "matches": [
-      {
-        "date": "2026-06-09",
-        "opponent": "Peru",
-        "home_away": "A",
-        "score": "3-1",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-06-04",
-        "opponent": "Iraq",
-        "home_away": "H",
-        "score": "1-1",
-        "result": "D",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-31",
-        "opponent": "Egypt",
-        "home_away": "H",
         "score": "0-0",
-        "result": "D",
-        "competition": "Friendlies"
+        "p": 0.0718
       },
       {
-        "date": "2026-03-27",
-        "opponent": "Serbia",
-        "home_away": "H",
-        "score": "3-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-11-18",
-        "opponent": "Türkiye",
-        "home_away": "H",
-        "score": "2-2",
-        "result": "D",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-11-15",
-        "opponent": "Georgia",
-        "home_away": "A",
-        "score": "4-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-10-14",
-        "opponent": "Bulgaria",
-        "home_away": "H",
-        "score": "4-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-10-11",
-        "opponent": "Georgia",
-        "home_away": "H",
-        "score": "2-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-09-07",
-        "opponent": "Türkiye",
-        "home_away": "A",
-        "score": "6-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-09-04",
-        "opponent": "Bulgaria",
-        "home_away": "A",
-        "score": "3-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      }
-    ]
-  },
-  "Portugal": {
-    "team_id": 27,
-    "matches": [
-      {
-        "date": "2026-06-06",
-        "opponent": "Chile",
-        "home_away": "H",
         "score": "2-1",
-        "result": "W",
-        "competition": "Friendlies"
+        "p": 0.0693
       },
       {
-        "date": "2026-03-31",
-        "opponent": "USA",
-        "home_away": "A",
-        "score": "2-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-29",
-        "opponent": "Mexico",
-        "home_away": "A",
-        "score": "0-0",
-        "result": "D",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-11-16",
-        "opponent": "Armenia",
-        "home_away": "H",
-        "score": "9-1",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-11-13",
-        "opponent": "Rep. Of Ireland",
-        "home_away": "A",
-        "score": "0-2",
-        "result": "L",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-10-14",
-        "opponent": "Hungary",
-        "home_away": "H",
-        "score": "2-2",
-        "result": "D",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-10-11",
-        "opponent": "Rep. Of Ireland",
-        "home_away": "H",
         "score": "1-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-09-09",
-        "opponent": "Hungary",
-        "home_away": "A",
-        "score": "3-2",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-09-06",
-        "opponent": "Armenia",
-        "home_away": "A",
-        "score": "5-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-06-08",
-        "opponent": "Spain",
-        "home_away": "H",
-        "score": "2-2",
-        "result": "W",
-        "competition": "UEFA Nations League",
-        "note": "won 5-3 on penalties"
+        "p": 0.0652
       }
-    ]
+    ],
+    "totals": {},
+    "btts": null
   },
-  "Netherlands": {
-    "team_id": 1118,
-    "matches": [
+  {
+    "match_id": 1489390,
+    "home": "Scotland",
+    "away": "Morocco",
+    "moneyline": {
+      "home": 0.1658,
+      "draw": 0.2702,
+      "away": 0.564
+    },
+    "xg": {
+      "home": 0.724,
+      "away": 1.655
+    },
+    "top_scores": [
       {
-        "date": "2026-06-08",
-        "opponent": "Uzbekistan",
-        "home_away": "H",
-        "score": "2-1",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-06-03",
-        "opponent": "Algeria",
-        "home_away": "H",
         "score": "0-1",
-        "result": "L",
-        "competition": "Friendlies"
+        "p": 0.1356
       },
       {
-        "date": "2026-03-31",
-        "opponent": "Ecuador",
-        "home_away": "H",
-        "score": "1-1",
-        "result": "D",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-27",
-        "opponent": "Norway",
-        "home_away": "H",
-        "score": "2-1",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-11-17",
-        "opponent": "Lithuania",
-        "home_away": "H",
-        "score": "4-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-11-14",
-        "opponent": "Poland",
-        "home_away": "A",
-        "score": "1-1",
-        "result": "D",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-10-12",
-        "opponent": "Finland",
-        "home_away": "H",
-        "score": "4-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-10-09",
-        "opponent": "Malta",
-        "home_away": "A",
-        "score": "4-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-09-07",
-        "opponent": "Lithuania",
-        "home_away": "A",
-        "score": "3-2",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-09-04",
-        "opponent": "Poland",
-        "home_away": "H",
-        "score": "1-1",
-        "result": "D",
-        "competition": "World Cup - Qualification Europe"
-      }
-    ]
-  },
-  "Italy": {
-    "team_id": 768,
-    "matches": [
-      {
-        "date": "2026-06-07",
-        "opponent": "Greece",
-        "home_away": "A",
-        "score": "1-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-06-03",
-        "opponent": "Luxembourg",
-        "home_away": "A",
-        "score": "1-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-31",
-        "opponent": "Bosnia & Herzegovina",
-        "home_away": "A",
-        "score": "1-1",
-        "result": "L",
-        "competition": "World Cup - Qualification Europe",
-        "note": "lost 1-4 on penalties"
-      },
-      {
-        "date": "2026-03-26",
-        "opponent": "Northern Ireland",
-        "home_away": "H",
-        "score": "2-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-11-16",
-        "opponent": "Norway",
-        "home_away": "H",
-        "score": "1-4",
-        "result": "L",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-11-13",
-        "opponent": "Moldova",
-        "home_away": "A",
-        "score": "2-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-10-14",
-        "opponent": "Israel",
-        "home_away": "H",
-        "score": "3-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-10-11",
-        "opponent": "Estonia",
-        "home_away": "A",
-        "score": "3-1",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-09-08",
-        "opponent": "Israel",
-        "home_away": "A",
-        "score": "5-4",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-09-05",
-        "opponent": "Estonia",
-        "home_away": "H",
-        "score": "5-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      }
-    ]
-  },
-  "Belgium": {
-    "team_id": 1,
-    "matches": [
-      {
-        "date": "2026-06-06",
-        "opponent": "Tunisia",
-        "home_away": "H",
-        "score": "5-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-06-02",
-        "opponent": "Croatia",
-        "home_away": "A",
-        "score": "2-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-04-01",
-        "opponent": "Mexico",
-        "home_away": "A",
-        "score": "1-1",
-        "result": "D",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-28",
-        "opponent": "USA",
-        "home_away": "A",
-        "score": "5-2",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-11-18",
-        "opponent": "Liechtenstein",
-        "home_away": "H",
-        "score": "7-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-11-15",
-        "opponent": "Kazakhstan",
-        "home_away": "A",
-        "score": "1-1",
-        "result": "D",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-10-13",
-        "opponent": "Wales",
-        "home_away": "A",
-        "score": "4-2",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-10-10",
-        "opponent": "FYR Macedonia",
-        "home_away": "H",
         "score": "0-0",
-        "result": "D",
-        "competition": "World Cup - Qualification Europe"
+        "p": 0.1263
       },
       {
-        "date": "2025-09-07",
-        "opponent": "Kazakhstan",
-        "home_away": "H",
-        "score": "6-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-09-04",
-        "opponent": "Liechtenstein",
-        "home_away": "A",
-        "score": "6-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      }
-    ]
-  },
-  "Austria": {
-    "team_id": 775,
-    "matches": [
-      {
-        "date": "2026-06-01",
-        "opponent": "Tunisia",
-        "home_away": "H",
-        "score": "1-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-31",
-        "opponent": "South Korea",
-        "home_away": "H",
-        "score": "1-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-27",
-        "opponent": "Ghana",
-        "home_away": "H",
-        "score": "5-1",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-11-18",
-        "opponent": "Bosnia & Herzegovina",
-        "home_away": "H",
-        "score": "1-1",
-        "result": "D",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-11-15",
-        "opponent": "Cyprus",
-        "home_away": "A",
-        "score": "2-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-10-12",
-        "opponent": "Romania",
-        "home_away": "A",
-        "score": "0-1",
-        "result": "L",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-10-09",
-        "opponent": "San Marino",
-        "home_away": "H",
-        "score": "10-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-09-09",
-        "opponent": "Bosnia & Herzegovina",
-        "home_away": "A",
-        "score": "2-1",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-09-06",
-        "opponent": "Cyprus",
-        "home_away": "H",
-        "score": "1-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-06-10",
-        "opponent": "San Marino",
-        "home_away": "A",
-        "score": "4-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      }
-    ]
-  },
-  "Switzerland": {
-    "team_id": 15,
-    "matches": [
-      {
-        "date": "2026-06-06",
-        "opponent": "Australia",
-        "home_away": "H",
-        "score": "1-1",
-        "result": "D",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-05-31",
-        "opponent": "Jordan",
-        "home_away": "H",
-        "score": "4-1",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-31",
-        "opponent": "Norway",
-        "home_away": "A",
-        "score": "0-0",
-        "result": "D",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-27",
-        "opponent": "Germany",
-        "home_away": "H",
-        "score": "3-4",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-11-18",
-        "opponent": "Kosovo",
-        "home_away": "A",
-        "score": "1-1",
-        "result": "D",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-11-15",
-        "opponent": "Sweden",
-        "home_away": "H",
-        "score": "4-1",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-10-13",
-        "opponent": "Slovenia",
-        "home_away": "A",
-        "score": "0-0",
-        "result": "D",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-10-10",
-        "opponent": "Sweden",
-        "home_away": "A",
-        "score": "2-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-09-08",
-        "opponent": "Slovenia",
-        "home_away": "H",
-        "score": "3-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-09-05",
-        "opponent": "Kosovo",
-        "home_away": "H",
-        "score": "4-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      }
-    ]
-  },
-  "Turkey": {
-    "team_id": 777,
-    "matches": [
-      {
-        "date": "2026-06-06",
-        "opponent": "Venezuela",
-        "home_away": "A",
-        "score": "2-1",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-06-01",
-        "opponent": "FYR Macedonia",
-        "home_away": "H",
-        "score": "4-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-31",
-        "opponent": "Kosovo",
-        "home_away": "A",
-        "score": "1-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2026-03-26",
-        "opponent": "Romania",
-        "home_away": "H",
-        "score": "1-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-11-18",
-        "opponent": "Spain",
-        "home_away": "A",
-        "score": "2-2",
-        "result": "D",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-11-15",
-        "opponent": "Bulgaria",
-        "home_away": "H",
-        "score": "2-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-10-14",
-        "opponent": "Georgia",
-        "home_away": "H",
-        "score": "4-1",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-10-11",
-        "opponent": "Bulgaria",
-        "home_away": "A",
-        "score": "6-1",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-09-07",
-        "opponent": "Spain",
-        "home_away": "H",
-        "score": "0-6",
-        "result": "L",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-09-04",
-        "opponent": "Georgia",
-        "home_away": "A",
-        "score": "3-2",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      }
-    ]
-  },
-  "Poland": {
-    "team_id": 24,
-    "matches": [
-      {
-        "date": "2026-06-03",
-        "opponent": "Nigeria",
-        "home_away": "H",
-        "score": "2-2",
-        "result": "D",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-05-31",
-        "opponent": "Ukraine",
-        "home_away": "H",
         "score": "0-2",
-        "result": "L",
-        "competition": "Friendlies"
+        "p": 0.1215
       },
       {
-        "date": "2026-03-31",
-        "opponent": "Sweden",
-        "home_away": "A",
-        "score": "2-3",
-        "result": "L",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2026-03-26",
-        "opponent": "Albania",
-        "home_away": "H",
-        "score": "2-1",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-11-17",
-        "opponent": "Malta",
-        "home_away": "A",
-        "score": "3-2",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-11-14",
-        "opponent": "Netherlands",
-        "home_away": "H",
         "score": "1-1",
-        "result": "D",
-        "competition": "World Cup - Qualification Europe"
+        "p": 0.1139
       },
       {
-        "date": "2025-10-12",
-        "opponent": "Lithuania",
-        "home_away": "A",
+        "score": "1-2",
+        "p": 0.0741
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489389,
+    "home": "Brazil",
+    "away": "Haiti",
+    "moneyline": {
+      "home": 0.6928,
+      "draw": 0.1725,
+      "away": 0.1347
+    },
+    "xg": {
+      "home": 2.911,
+      "away": 1.109
+    },
+    "top_scores": [
+      {
         "score": "2-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
+        "p": 0.0752
       },
       {
-        "date": "2025-10-09",
-        "opponent": "New Zealand",
-        "home_away": "H",
-        "score": "1-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-09-07",
-        "opponent": "Finland",
-        "home_away": "H",
-        "score": "3-1",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-09-04",
-        "opponent": "Netherlands",
-        "home_away": "A",
-        "score": "1-1",
-        "result": "D",
-        "competition": "World Cup - Qualification Europe"
-      }
-    ]
-  },
-  "Denmark": {
-    "team_id": 21,
-    "matches": [
-      {
-        "date": "2026-06-07",
-        "opponent": "Ukraine",
-        "home_away": "H",
         "score": "2-1",
-        "result": "W",
-        "competition": "Friendlies"
+        "p": 0.0706
       },
       {
-        "date": "2026-06-03",
-        "opponent": "Congo DR",
-        "home_away": "A",
-        "score": "0-0",
-        "result": "D",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-31",
-        "opponent": "Czech Republic",
-        "home_away": "A",
         "score": "1-1",
-        "result": "L",
-        "competition": "World Cup - Qualification Europe",
-        "note": "lost 1-3 on penalties"
+        "p": 0.0677
       },
       {
-        "date": "2026-03-26",
-        "opponent": "FYR Macedonia",
-        "home_away": "H",
-        "score": "4-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-11-18",
-        "opponent": "Scotland",
-        "home_away": "A",
-        "score": "2-4",
-        "result": "L",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-11-15",
-        "opponent": "Belarus",
-        "home_away": "H",
-        "score": "2-2",
-        "result": "D",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-10-12",
-        "opponent": "Greece",
-        "home_away": "H",
-        "score": "3-1",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-10-09",
-        "opponent": "Belarus",
-        "home_away": "A",
-        "score": "6-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-09-08",
-        "opponent": "Greece",
-        "home_away": "A",
         "score": "3-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
+        "p": 0.0672
       },
       {
-        "date": "2025-09-05",
-        "opponent": "Scotland",
-        "home_away": "H",
-        "score": "0-0",
-        "result": "D",
-        "competition": "World Cup - Qualification Europe"
+        "score": "3-1",
+        "p": 0.0657
       }
-    ]
+    ],
+    "totals": {},
+    "btts": null
   },
-  "Serbia": {
-    "team_id": 14,
-    "matches": [
+  {
+    "match_id": 1539006,
+    "home": "Turkey",
+    "away": "Paraguay",
+    "moneyline": {
+      "home": 0.4325,
+      "draw": 0.2856,
+      "away": 0.2819
+    },
+    "xg": {
+      "home": 1.393,
+      "away": 1.052
+    },
+    "top_scores": [
       {
-        "date": "2026-06-05",
-        "opponent": "Mexico",
-        "home_away": "A",
-        "score": "1-5",
-        "result": "L",
-        "competition": "Friendlies"
+        "score": "1-1",
+        "p": 0.1246
       },
       {
-        "date": "2026-05-31",
-        "opponent": "Cape Verde Islands",
-        "home_away": "A",
+        "score": "0-0",
+        "p": 0.1139
+      },
+      {
+        "score": "1-0",
+        "p": 0.1118
+      },
+      {
+        "score": "0-1",
+        "p": 0.0815
+      },
+      {
+        "score": "2-0",
+        "p": 0.0802
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1539007,
+    "home": "Netherlands",
+    "away": "Sweden",
+    "moneyline": {
+      "home": 0.6281,
+      "draw": 0.199,
+      "away": 0.1729
+    },
+    "xg": {
+      "home": 2.482,
+      "away": 1.152
+    },
+    "top_scores": [
+      {
+        "score": "1-1",
+        "p": 0.0837
+      },
+      {
+        "score": "2-1",
+        "p": 0.0793
+      },
+      {
+        "score": "2-0",
+        "p": 0.078
+      },
+      {
+        "score": "1-0",
+        "p": 0.0694
+      },
+      {
+        "score": "3-1",
+        "p": 0.0624
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489393,
+    "home": "Germany",
+    "away": "Ivory Coast",
+    "moneyline": {
+      "home": 0.3249,
+      "draw": 0.2728,
+      "away": 0.4023
+    },
+    "xg": {
+      "home": 1.318,
+      "away": 1.495
+    },
+    "top_scores": [
+      {
+        "score": "1-1",
+        "p": 0.119
+      },
+      {
+        "score": "0-0",
+        "p": 0.0903
+      },
+      {
+        "score": "1-2",
+        "p": 0.0797
+      },
+      {
+        "score": "0-1",
+        "p": 0.0753
+      },
+      {
+        "score": "1-0",
+        "p": 0.0725
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489392,
+    "home": "Ecuador",
+    "away": "Curaçao",
+    "moneyline": {
+      "home": 0.5892,
+      "draw": 0.2543,
+      "away": 0.1565
+    },
+    "xg": {
+      "home": 1.778,
+      "away": 0.754
+    },
+    "top_scores": [
+      {
+        "score": "1-0",
+        "p": 0.1342
+      },
+      {
+        "score": "2-0",
+        "p": 0.1179
+      },
+      {
+        "score": "0-0",
+        "p": 0.114
+      },
+      {
+        "score": "1-1",
+        "p": 0.104
+      },
+      {
+        "score": "2-1",
+        "p": 0.0875
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489394,
+    "home": "Tunisia",
+    "away": "Japan",
+    "moneyline": {
+      "home": 0.1406,
+      "draw": 0.2781,
+      "away": 0.5813
+    },
+    "xg": {
+      "home": 0.603,
+      "away": 1.547
+    },
+    "top_scores": [
+      {
+        "score": "0-1",
+        "p": 0.1697
+      },
+      {
+        "score": "0-0",
+        "p": 0.1485
+      },
+      {
+        "score": "0-2",
+        "p": 0.1242
+      },
+      {
+        "score": "1-1",
+        "p": 0.1014
+      },
+      {
+        "score": "1-2",
+        "p": 0.0758
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489397,
+    "home": "Spain",
+    "away": "Saudi Arabia",
+    "moneyline": {
+      "home": 0.7241,
+      "draw": 0.1872,
+      "away": 0.0887
+    },
+    "xg": {
+      "home": 2.429,
+      "away": 0.657
+    },
+    "top_scores": [
+      {
+        "score": "2-0",
+        "p": 0.1244
+      },
+      {
+        "score": "1-0",
+        "p": 0.1176
+      },
+      {
+        "score": "3-0",
+        "p": 0.0893
+      },
+      {
+        "score": "1-1",
+        "p": 0.0805
+      },
+      {
+        "score": "0-0",
+        "p": 0.0738
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489395,
+    "home": "Belgium",
+    "away": "Iran",
+    "moneyline": {
+      "home": 0.4759,
+      "draw": 0.2407,
+      "away": 0.2834
+    },
+    "xg": {
+      "home": 1.889,
+      "away": 1.362
+    },
+    "top_scores": [
+      {
+        "score": "1-1",
+        "p": 0.1042
+      },
+      {
+        "score": "2-1",
+        "p": 0.0805
+      },
+      {
+        "score": "2-0",
+        "p": 0.067
+      },
+      {
+        "score": "1-0",
+        "p": 0.0642
+      },
+      {
+        "score": "1-2",
+        "p": 0.0631
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489398,
+    "home": "Uruguay",
+    "away": "Cape Verde",
+    "moneyline": {
+      "home": 0.4393,
+      "draw": 0.3244,
+      "away": 0.2363
+    },
+    "xg": {
+      "home": 1.223,
+      "away": 0.814
+    },
+    "top_scores": [
+      {
+        "score": "0-0",
+        "p": 0.1617
+      },
+      {
+        "score": "1-0",
+        "p": 0.1412
+      },
+      {
+        "score": "1-1",
+        "p": 0.1287
+      },
+      {
+        "score": "0-1",
+        "p": 0.0966
+      },
+      {
+        "score": "2-0",
+        "p": 0.0953
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489396,
+    "home": "New Zealand",
+    "away": "Egypt",
+    "moneyline": {
+      "home": 0.3477,
+      "draw": 0.3052,
+      "away": 0.3471
+    },
+    "xg": {
+      "home": 1.111,
+      "away": 1.117
+    },
+    "top_scores": [
+      {
+        "score": "0-0",
+        "p": 0.1395
+      },
+      {
+        "score": "1-1",
+        "p": 0.1243
+      },
+      {
+        "score": "1-0",
+        "p": 0.1095
+      },
+      {
+        "score": "0-1",
+        "p": 0.1089
+      },
+      {
+        "score": "2-0",
+        "p": 0.0665
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489399,
+    "home": "Argentina",
+    "away": "Austria",
+    "moneyline": {
+      "home": 0.5868,
+      "draw": 0.262,
+      "away": 0.1512
+    },
+    "xg": {
+      "home": 1.698,
+      "away": 0.678
+    },
+    "top_scores": [
+      {
+        "score": "1-0",
+        "p": 0.1388
+      },
+      {
+        "score": "0-0",
+        "p": 0.1279
+      },
+      {
+        "score": "2-0",
+        "p": 0.1273
+      },
+      {
+        "score": "1-1",
+        "p": 0.1034
+      },
+      {
+        "score": "3-0",
+        "p": 0.0737
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1539017,
+    "home": "France",
+    "away": "Iraq",
+    "moneyline": {
+      "home": 0.5415,
+      "draw": 0.2659,
+      "away": 0.1926
+    },
+    "xg": {
+      "home": 1.635,
+      "away": 0.841
+    },
+    "top_scores": [
+      {
+        "score": "1-0",
+        "p": 0.1273
+      },
+      {
+        "score": "0-0",
+        "p": 0.114
+      },
+      {
+        "score": "1-1",
+        "p": 0.1108
+      },
+      {
+        "score": "2-0",
+        "p": 0.1088
+      },
+      {
+        "score": "2-1",
+        "p": 0.0822
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489401,
+    "home": "Norway",
+    "away": "Senegal",
+    "moneyline": {
+      "home": 0.3345,
+      "draw": 0.2807,
+      "away": 0.3848
+    },
+    "xg": {
+      "home": 1.27,
+      "away": 1.409
+    },
+    "top_scores": [
+      {
+        "score": "1-1",
+        "p": 0.1268
+      },
+      {
+        "score": "0-0",
+        "p": 0.0974
+      },
+      {
+        "score": "0-1",
+        "p": 0.0891
+      },
+      {
+        "score": "1-0",
+        "p": 0.0763
+      },
+      {
+        "score": "2-1",
+        "p": 0.0708
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489400,
+    "home": "Jordan",
+    "away": "Algeria",
+    "moneyline": {
+      "home": 0.1721,
+      "draw": 0.2294,
+      "away": 0.5985
+    },
+    "xg": {
+      "home": 0.949,
+      "away": 2.041
+    },
+    "top_scores": [
+      {
+        "score": "0-2",
+        "p": 0.1012
+      },
+      {
+        "score": "1-1",
+        "p": 0.0995
+      },
+      {
+        "score": "0-1",
+        "p": 0.0968
+      },
+      {
+        "score": "0-0",
+        "p": 0.0779
+      },
+      {
+        "score": "1-2",
+        "p": 0.0773
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489404,
+    "home": "Portugal",
+    "away": "Uzbekistan",
+    "moneyline": {
+      "home": 0.5381,
+      "draw": 0.2899,
+      "away": 0.172
+    },
+    "xg": {
+      "home": 1.528,
+      "away": 0.709
+    },
+    "top_scores": [
+      {
+        "score": "1-0",
+        "p": 0.1478
+      },
+      {
+        "score": "0-0",
+        "p": 0.14
+      },
+      {
+        "score": "1-1",
+        "p": 0.1183
+      },
+      {
+        "score": "2-0",
+        "p": 0.1175
+      },
+      {
+        "score": "0-1",
+        "p": 0.0728
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489402,
+    "home": "England",
+    "away": "Ghana",
+    "moneyline": {
+      "home": 0.5756,
+      "draw": 0.2804,
+      "away": 0.144
+    },
+    "xg": {
+      "home": 1.597,
+      "away": 0.615
+    },
+    "top_scores": [
+      {
+        "score": "1-0",
+        "p": 0.1597
+      },
+      {
+        "score": "0-0",
+        "p": 0.1417
+      },
+      {
+        "score": "2-0",
+        "p": 0.1313
+      },
+      {
+        "score": "1-1",
+        "p": 0.1117
+      },
+      {
+        "score": "2-1",
+        "p": 0.078
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489403,
+    "home": "Panama",
+    "away": "Croatia",
+    "moneyline": {
+      "home": 0.2685,
+      "draw": 0.2447,
+      "away": 0.4868
+    },
+    "xg": {
+      "home": 1.323,
+      "away": 1.899
+    },
+    "top_scores": [
+      {
+        "score": "1-1",
+        "p": 0.1009
+      },
+      {
+        "score": "1-2",
+        "p": 0.0809
+      },
+      {
+        "score": "0-0",
+        "p": 0.0703
+      },
+      {
+        "score": "0-1",
+        "p": 0.0702
+      },
+      {
+        "score": "0-2",
+        "p": 0.0671
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1539008,
+    "home": "Colombia",
+    "away": "DR Congo",
+    "moneyline": {
+      "home": 0.3733,
+      "draw": 0.3599,
+      "away": 0.2668
+    },
+    "xg": {
+      "home": 0.938,
+      "away": 0.753
+    },
+    "top_scores": [
+      {
+        "score": "0-0",
+        "p": 0.2114
+      },
+      {
+        "score": "1-0",
+        "p": 0.1644
+      },
+      {
+        "score": "0-1",
+        "p": 0.1253
+      },
+      {
+        "score": "1-1",
+        "p": 0.1236
+      },
+      {
+        "score": "2-0",
+        "p": 0.0802
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489408,
+    "home": "Switzerland",
+    "away": "Canada",
+    "moneyline": {
+      "home": 0.4039,
+      "draw": 0.2931,
+      "away": 0.303
+    },
+    "xg": {
+      "home": 1.314,
+      "away": 1.095
+    },
+    "top_scores": [
+      {
+        "score": "1-1",
+        "p": 0.1266
+      },
+      {
+        "score": "0-0",
+        "p": 0.1198
+      },
+      {
+        "score": "1-0",
+        "p": 0.1027
+      },
+      {
+        "score": "0-1",
+        "p": 0.0865
+      },
+      {
+        "score": "2-1",
+        "p": 0.0765
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1539009,
+    "home": "Bosnia and Herzegovina",
+    "away": "Qatar",
+    "moneyline": {
+      "home": 0.2907,
+      "draw": 0.3224,
+      "away": 0.3869
+    },
+    "xg": {
+      "home": 0.941,
+      "away": 1.12
+    },
+    "top_scores": [
+      {
+        "score": "0-0",
+        "p": 0.1598
+      },
+      {
+        "score": "0-1",
+        "p": 0.1296
+      },
+      {
+        "score": "1-1",
+        "p": 0.1276
+      },
+      {
+        "score": "1-0",
+        "p": 0.1089
+      },
+      {
+        "score": "0-2",
+        "p": 0.0823
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489405,
+    "home": "Morocco",
+    "away": "Haiti",
+    "moneyline": {
+      "home": 0.5812,
+      "draw": 0.2491,
+      "away": 0.1697
+    },
+    "xg": {
+      "home": 1.823,
+      "away": 0.811
+    },
+    "top_scores": [
+      {
+        "score": "1-0",
+        "p": 0.1201
+      },
+      {
+        "score": "1-1",
+        "p": 0.1055
+      },
+      {
+        "score": "2-0",
+        "p": 0.1049
+      },
+      {
+        "score": "0-0",
+        "p": 0.1013
+      },
+      {
+        "score": "2-1",
+        "p": 0.0813
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489406,
+    "home": "Scotland",
+    "away": "Brazil",
+    "moneyline": {
+      "home": 0.1323,
+      "draw": 0.1942,
+      "away": 0.6735
+    },
+    "xg": {
+      "home": 0.995,
+      "away": 2.577
+    },
+    "top_scores": [
+      {
+        "score": "0-2",
+        "p": 0.0885
+      },
+      {
+        "score": "1-1",
+        "p": 0.0798
+      },
+      {
+        "score": "1-2",
+        "p": 0.0758
+      },
+      {
+        "score": "0-1",
+        "p": 0.0756
+      },
+      {
         "score": "0-3",
-        "result": "L",
-        "competition": "Friendlies"
+        "p": 0.0738
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1539010,
+    "home": "Czech Republic",
+    "away": "Mexico",
+    "moneyline": {
+      "home": 0.125,
+      "draw": 0.2521,
+      "away": 0.6229
+    },
+    "xg": {
+      "home": 0.677,
+      "away": 1.843
+    },
+    "top_scores": [
+      {
+        "score": "0-1",
+        "p": 0.1309
       },
       {
-        "date": "2026-03-31",
-        "opponent": "Saudi Arabia",
-        "home_away": "H",
+        "score": "0-2",
+        "p": 0.1277
+      },
+      {
+        "score": "0-0",
+        "p": 0.1158
+      },
+      {
+        "score": "1-1",
+        "p": 0.1007
+      },
+      {
+        "score": "1-2",
+        "p": 0.0811
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489407,
+    "home": "South Africa",
+    "away": "South Korea",
+    "moneyline": {
+      "home": 0.1242,
+      "draw": 0.2531,
+      "away": 0.6227
+    },
+    "xg": {
+      "home": 0.649,
+      "away": 1.83
+    },
+    "top_scores": [
+      {
+        "score": "0-1",
+        "p": 0.1419
+      },
+      {
+        "score": "0-2",
+        "p": 0.128
+      },
+      {
+        "score": "0-0",
+        "p": 0.1174
+      },
+      {
+        "score": "1-1",
+        "p": 0.1052
+      },
+      {
+        "score": "1-2",
+        "p": 0.0795
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489410,
+    "home": "Ecuador",
+    "away": "Germany",
+    "moneyline": {
+      "home": 0.3562,
+      "draw": 0.2991,
+      "away": 0.3447
+    },
+    "xg": {
+      "home": 1.2,
+      "away": 1.184
+    },
+    "top_scores": [
+      {
+        "score": "1-1",
+        "p": 0.1263
+      },
+      {
+        "score": "0-0",
+        "p": 0.1202
+      },
+      {
+        "score": "1-0",
+        "p": 0.1049
+      },
+      {
+        "score": "0-1",
+        "p": 0.1028
+      },
+      {
         "score": "2-1",
-        "result": "W",
-        "competition": "Friendlies"
+        "p": 0.0705
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489409,
+    "home": "Curaçao",
+    "away": "Ivory Coast",
+    "moneyline": {
+      "home": 0.1259,
+      "draw": 0.2116,
+      "away": 0.6625
+    },
+    "xg": {
+      "home": 0.844,
+      "away": 2.264
+    },
+    "top_scores": [
+      {
+        "score": "0-2",
+        "p": 0.1056
       },
       {
-        "date": "2026-03-27",
-        "opponent": "Spain",
-        "home_away": "A",
+        "score": "0-1",
+        "p": 0.0997
+      },
+      {
+        "score": "1-1",
+        "p": 0.0929
+      },
+      {
+        "score": "1-2",
+        "p": 0.0841
+      },
+      {
         "score": "0-3",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-11-16",
-        "opponent": "Latvia",
-        "home_away": "H",
-        "score": "2-1",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-11-13",
-        "opponent": "England",
-        "home_away": "A",
-        "score": "0-2",
-        "result": "L",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-10-14",
-        "opponent": "Andorra",
-        "home_away": "A",
-        "score": "3-1",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-10-11",
-        "opponent": "Albania",
-        "home_away": "H",
-        "score": "0-1",
-        "result": "L",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-09-09",
-        "opponent": "England",
-        "home_away": "H",
-        "score": "0-5",
-        "result": "L",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-09-06",
-        "opponent": "Latvia",
-        "home_away": "A",
-        "score": "1-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
+        "p": 0.0776
       }
-    ]
+    ],
+    "totals": {},
+    "btts": null
   },
-  "Croatia": {
-    "team_id": 3,
-    "matches": [
+  {
+    "match_id": 1539011,
+    "home": "Japan",
+    "away": "Sweden",
+    "moneyline": {
+      "home": 0.6657,
+      "draw": 0.2038,
+      "away": 0.1305
+    },
+    "xg": {
+      "home": 2.263,
+      "away": 0.83
+    },
+    "top_scores": [
       {
-        "date": "2026-06-07",
-        "opponent": "Slovenia",
-        "home_away": "H",
-        "score": "2-1",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-06-02",
-        "opponent": "Belgium",
-        "home_away": "H",
-        "score": "0-2",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-04-01",
-        "opponent": "Brazil",
-        "home_away": "A",
-        "score": "1-3",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-26",
-        "opponent": "Colombia",
-        "home_away": "A",
-        "score": "2-1",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-11-17",
-        "opponent": "Montenegro",
-        "home_away": "A",
-        "score": "3-2",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-11-14",
-        "opponent": "Faroe Islands",
-        "home_away": "H",
-        "score": "3-1",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-10-12",
-        "opponent": "Gibraltar",
-        "home_away": "H",
-        "score": "3-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-10-09",
-        "opponent": "Czech Republic",
-        "home_away": "A",
-        "score": "0-0",
-        "result": "D",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-09-08",
-        "opponent": "Montenegro",
-        "home_away": "H",
-        "score": "4-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-09-05",
-        "opponent": "Faroe Islands",
-        "home_away": "A",
-        "score": "1-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      }
-    ]
-  },
-  "Scotland": {
-    "team_id": 1108,
-    "matches": [
-      {
-        "date": "2026-06-06",
-        "opponent": "Bolivia",
-        "home_away": "A",
-        "score": "4-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-05-30",
-        "opponent": "Curaçao",
-        "home_away": "H",
-        "score": "4-1",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-31",
-        "opponent": "Ivory Coast",
-        "home_away": "H",
-        "score": "0-1",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-28",
-        "opponent": "Japan",
-        "home_away": "H",
-        "score": "0-1",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-11-18",
-        "opponent": "Denmark",
-        "home_away": "H",
-        "score": "4-2",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-11-15",
-        "opponent": "Greece",
-        "home_away": "A",
-        "score": "2-3",
-        "result": "L",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-10-12",
-        "opponent": "Belarus",
-        "home_away": "H",
-        "score": "2-1",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-10-09",
-        "opponent": "Greece",
-        "home_away": "H",
-        "score": "3-1",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
-      },
-      {
-        "date": "2025-09-08",
-        "opponent": "Belarus",
-        "home_away": "A",
         "score": "2-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Europe"
+        "p": 0.1078
       },
       {
-        "date": "2025-09-05",
-        "opponent": "Denmark",
-        "home_away": "A",
-        "score": "0-0",
-        "result": "D",
-        "competition": "World Cup - Qualification Europe"
-      }
-    ]
-  },
-  "Morocco": {
-    "team_id": 31,
-    "matches": [
+        "score": "1-0",
+        "p": 0.0989
+      },
       {
-        "date": "2026-06-07",
-        "opponent": "Norway",
-        "home_away": "H",
+        "score": "2-1",
+        "p": 0.0877
+      },
+      {
         "score": "1-1",
-        "result": "D",
-        "competition": "Friendlies"
+        "p": 0.0821
       },
       {
-        "date": "2026-06-02",
-        "opponent": "Madagascar",
-        "home_away": "H",
-        "score": "4-0",
-        "result": "W",
-        "competition": "Friendlies"
+        "score": "3-0",
+        "p": 0.0785
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489412,
+    "home": "Tunisia",
+    "away": "Netherlands",
+    "moneyline": {
+      "home": 0.1954,
+      "draw": 0.2666,
+      "away": 0.538
+    },
+    "xg": {
+      "home": 0.855,
+      "away": 1.671
+    },
+    "top_scores": [
+      {
+        "score": "0-1",
+        "p": 0.1237
       },
       {
-        "date": "2026-05-26",
-        "opponent": "Burundi",
-        "home_away": "H",
-        "score": "5-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-31",
-        "opponent": "Paraguay",
-        "home_away": "H",
-        "score": "2-1",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-27",
-        "opponent": "Ecuador",
-        "home_away": "H",
         "score": "1-1",
-        "result": "D",
-        "competition": "Friendlies"
+        "p": 0.1132
       },
       {
-        "date": "2026-01-18",
-        "opponent": "Senegal",
-        "home_away": "A",
-        "score": "3-0",
-        "result": "W",
-        "competition": "Africa Cup of Nations"
-      },
-      {
-        "date": "2026-01-14",
-        "opponent": "Nigeria",
-        "home_away": "A",
         "score": "0-0",
-        "result": "W",
-        "competition": "Africa Cup of Nations",
-        "note": "won 4-2 on penalties"
+        "p": 0.1079
       },
       {
-        "date": "2026-01-09",
-        "opponent": "Cameroon",
-        "home_away": "A",
-        "score": "2-0",
-        "result": "W",
-        "competition": "Africa Cup of Nations"
+        "score": "0-2",
+        "p": 0.1035
       },
       {
-        "date": "2026-01-04",
-        "opponent": "Tanzania",
-        "home_away": "H",
-        "score": "1-0",
-        "result": "W",
-        "competition": "Africa Cup of Nations"
-      },
-      {
-        "date": "2025-12-29",
-        "opponent": "Zambia",
-        "home_away": "A",
-        "score": "3-0",
-        "result": "W",
-        "competition": "Africa Cup of Nations"
+        "score": "1-2",
+        "p": 0.0783
       }
-    ]
+    ],
+    "totals": {},
+    "btts": null
   },
-  "Nigeria": {
-    "team_id": 19,
-    "matches": [
+  {
+    "match_id": 1539012,
+    "home": "Turkey",
+    "away": "United States",
+    "moneyline": {
+      "home": 0.5086,
+      "draw": 0.249,
+      "away": 0.2424
+    },
+    "xg": {
+      "home": 1.832,
+      "away": 1.159
+    },
+    "top_scores": [
       {
-        "date": "2026-06-03",
-        "opponent": "Poland",
-        "home_away": "A",
-        "score": "2-2",
-        "result": "D",
-        "competition": "Friendlies"
+        "score": "1-1",
+        "p": 0.1088
       },
       {
-        "date": "2026-05-30",
-        "opponent": "Jamaica",
-        "home_away": "A",
-        "score": "3-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-05-26",
-        "opponent": "Zimbabwe",
-        "home_away": "H",
         "score": "2-0",
-        "result": "W",
-        "competition": "Friendlies"
+        "p": 0.0816
       },
       {
-        "date": "2026-03-31",
-        "opponent": "Jordan",
-        "home_away": "A",
-        "score": "2-2",
-        "result": "D",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-27",
-        "opponent": "Iran",
-        "home_away": "A",
         "score": "2-1",
-        "result": "W",
-        "competition": "Friendlies"
+        "p": 0.0806
       },
       {
-        "date": "2026-01-17",
-        "opponent": "Egypt",
-        "home_away": "A",
+        "score": "1-0",
+        "p": 0.0805
+      },
+      {
         "score": "0-0",
-        "result": "W",
-        "competition": "Africa Cup of Nations",
-        "note": "won 4-2 on penalties"
-      },
-      {
-        "date": "2026-01-14",
-        "opponent": "Morocco",
-        "home_away": "H",
-        "score": "0-0",
-        "result": "L",
-        "competition": "Africa Cup of Nations",
-        "note": "lost 2-4 on penalties"
-      },
-      {
-        "date": "2026-01-10",
-        "opponent": "Algeria",
-        "home_away": "A",
-        "score": "2-0",
-        "result": "W",
-        "competition": "Africa Cup of Nations"
-      },
-      {
-        "date": "2026-01-05",
-        "opponent": "Mozambique",
-        "home_away": "H",
-        "score": "4-0",
-        "result": "W",
-        "competition": "Africa Cup of Nations"
-      },
-      {
-        "date": "2025-12-30",
-        "opponent": "Uganda",
-        "home_away": "A",
-        "score": "3-1",
-        "result": "W",
-        "competition": "Africa Cup of Nations"
+        "p": 0.0793
       }
-    ]
+    ],
+    "totals": {},
+    "btts": null
   },
-  "Senegal": {
-    "team_id": 13,
-    "matches": [
+  {
+    "match_id": 1489411,
+    "home": "Paraguay",
+    "away": "Australia",
+    "moneyline": {
+      "home": 0.304,
+      "draw": 0.3016,
+      "away": 0.3944
+    },
+    "xg": {
+      "home": 1.047,
+      "away": 1.221
+    },
+    "top_scores": [
       {
-        "date": "2026-05-31",
-        "opponent": "USA",
-        "home_away": "A",
-        "score": "2-3",
-        "result": "L",
-        "competition": "Friendlies"
+        "score": "0-0",
+        "p": 0.1323
       },
       {
-        "date": "2026-03-31",
-        "opponent": "Gambia",
-        "home_away": "H",
-        "score": "3-1",
-        "result": "W",
-        "competition": "Friendlies"
+        "score": "1-1",
+        "p": 0.1305
       },
       {
-        "date": "2026-03-28",
-        "opponent": "Peru",
-        "home_away": "H",
+        "score": "0-1",
+        "p": 0.1124
+      },
+      {
+        "score": "1-0",
+        "p": 0.0966
+      },
+      {
+        "score": "1-2",
+        "p": 0.0771
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1539074,
+    "home": "Senegal",
+    "away": "Iraq",
+    "moneyline": {
+      "home": 0.4513,
+      "draw": 0.3138,
+      "away": 0.2349
+    },
+    "xg": {
+      "home": 1.317,
+      "away": 0.874
+    },
+    "top_scores": [
+      {
+        "score": "0-0",
+        "p": 0.1533
+      },
+      {
+        "score": "1-0",
+        "p": 0.1302
+      },
+      {
+        "score": "1-1",
+        "p": 0.1238
+      },
+      {
         "score": "2-0",
-        "result": "W",
-        "competition": "Friendlies"
+        "p": 0.0978
       },
       {
-        "date": "2026-01-18",
-        "opponent": "Morocco",
-        "home_away": "H",
+        "score": "0-1",
+        "p": 0.0869
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489416,
+    "home": "Norway",
+    "away": "France",
+    "moneyline": {
+      "home": 0.2607,
+      "draw": 0.2655,
+      "away": 0.4738
+    },
+    "xg": {
+      "home": 1.218,
+      "away": 1.741
+    },
+    "top_scores": [
+      {
+        "score": "1-1",
+        "p": 0.1199
+      },
+      {
+        "score": "0-0",
+        "p": 0.0837
+      },
+      {
+        "score": "0-2",
+        "p": 0.0827
+      },
+      {
+        "score": "0-1",
+        "p": 0.0821
+      },
+      {
+        "score": "1-2",
+        "p": 0.0812
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489417,
+    "home": "Uruguay",
+    "away": "Spain",
+    "moneyline": {
+      "home": 0.2157,
+      "draw": 0.3165,
+      "away": 0.4678
+    },
+    "xg": {
+      "home": 0.785,
+      "away": 1.301
+    },
+    "top_scores": [
+      {
+        "score": "0-0",
+        "p": 0.1573
+      },
+      {
+        "score": "0-1",
+        "p": 0.1421
+      },
+      {
+        "score": "1-1",
+        "p": 0.1287
+      },
+      {
+        "score": "0-2",
+        "p": 0.1022
+      },
+      {
+        "score": "1-0",
+        "p": 0.0871
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489413,
+    "home": "Cape Verde",
+    "away": "Saudi Arabia",
+    "moneyline": {
+      "home": 0.5069,
+      "draw": 0.2774,
+      "away": 0.2157
+    },
+    "xg": {
+      "home": 1.558,
+      "away": 0.904
+    },
+    "top_scores": [
+      {
+        "score": "1-0",
+        "p": 0.1225
+      },
+      {
+        "score": "0-0",
+        "p": 0.1185
+      },
+      {
+        "score": "1-1",
+        "p": 0.1169
+      },
+      {
+        "score": "2-0",
+        "p": 0.0991
+      },
+      {
+        "score": "2-1",
+        "p": 0.0796
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489414,
+    "home": "Egypt",
+    "away": "Iran",
+    "moneyline": {
+      "home": 0.138,
+      "draw": 0.2626,
+      "away": 0.5994
+    },
+    "xg": {
+      "home": 0.678,
+      "away": 1.77
+    },
+    "top_scores": [
+      {
+        "score": "0-1",
+        "p": 0.1358
+      },
+      {
+        "score": "0-2",
+        "p": 0.1264
+      },
+      {
+        "score": "0-0",
+        "p": 0.1178
+      },
+      {
+        "score": "1-1",
+        "p": 0.1107
+      },
+      {
+        "score": "1-2",
+        "p": 0.0814
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489415,
+    "home": "New Zealand",
+    "away": "Belgium",
+    "moneyline": {
+      "home": 0.0785,
+      "draw": 0.1449,
+      "away": 0.7766
+    },
+    "xg": {
+      "home": 0.855,
+      "away": 3.116
+    },
+    "top_scores": [
+      {
+        "score": "0-2",
+        "p": 0.0927
+      },
+      {
         "score": "0-3",
-        "result": "L",
-        "competition": "Africa Cup of Nations"
+        "p": 0.0854
       },
       {
-        "date": "2026-01-14",
-        "opponent": "Egypt",
-        "home_away": "H",
-        "score": "1-0",
-        "result": "W",
-        "competition": "Africa Cup of Nations"
-      },
-      {
-        "date": "2026-01-09",
-        "opponent": "Mali",
-        "home_away": "A",
-        "score": "1-0",
-        "result": "W",
-        "competition": "Africa Cup of Nations"
-      },
-      {
-        "date": "2026-01-03",
-        "opponent": "Sudan",
-        "home_away": "H",
-        "score": "3-1",
-        "result": "W",
-        "competition": "Africa Cup of Nations"
-      },
-      {
-        "date": "2025-12-30",
-        "opponent": "Benin",
-        "home_away": "A",
-        "score": "3-0",
-        "result": "W",
-        "competition": "Africa Cup of Nations"
-      },
-      {
-        "date": "2025-12-27",
-        "opponent": "Congo DR",
-        "home_away": "H",
-        "score": "1-1",
-        "result": "D",
-        "competition": "Africa Cup of Nations"
-      },
-      {
-        "date": "2025-12-23",
-        "opponent": "Botswana",
-        "home_away": "H",
-        "score": "3-0",
-        "result": "W",
-        "competition": "Africa Cup of Nations"
-      }
-    ]
-  },
-  "Egypt": {
-    "team_id": 32,
-    "matches": [
-      {
-        "date": "2026-06-06",
-        "opponent": "Brazil",
-        "home_away": "A",
         "score": "1-2",
-        "result": "L",
-        "competition": "Friendlies"
+        "p": 0.0705
       },
       {
-        "date": "2026-05-28",
-        "opponent": "Russia",
-        "home_away": "H",
-        "score": "1-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-31",
-        "opponent": "Spain",
-        "home_away": "A",
-        "score": "0-0",
-        "result": "D",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-27",
-        "opponent": "Saudi Arabia",
-        "home_away": "A",
-        "score": "4-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-01-17",
-        "opponent": "Nigeria",
-        "home_away": "H",
-        "score": "0-0",
-        "result": "L",
-        "competition": "Africa Cup of Nations",
-        "note": "lost 2-4 on penalties"
-      },
-      {
-        "date": "2026-01-14",
-        "opponent": "Senegal",
-        "home_away": "A",
-        "score": "0-1",
-        "result": "L",
-        "competition": "Africa Cup of Nations"
-      },
-      {
-        "date": "2026-01-10",
-        "opponent": "Ivory Coast",
-        "home_away": "H",
-        "score": "3-2",
-        "result": "W",
-        "competition": "Africa Cup of Nations"
-      },
-      {
-        "date": "2026-01-05",
-        "opponent": "Benin",
-        "home_away": "H",
-        "score": "3-1",
-        "result": "W",
-        "competition": "Africa Cup of Nations"
-      },
-      {
-        "date": "2025-12-29",
-        "opponent": "Angola",
-        "home_away": "A",
-        "score": "0-0",
-        "result": "D",
-        "competition": "Africa Cup of Nations"
-      },
-      {
-        "date": "2025-12-26",
-        "opponent": "South Africa",
-        "home_away": "H",
-        "score": "1-0",
-        "result": "W",
-        "competition": "Africa Cup of Nations"
-      }
-    ]
-  },
-  "Ivory Coast": {
-    "team_id": 1501,
-    "matches": [
-      {
-        "date": "2026-06-08",
-        "opponent": "Philadelphia Union II",
-        "home_away": "A",
-        "score": "2-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-06-04",
-        "opponent": "France",
-        "home_away": "A",
-        "score": "2-1",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-31",
-        "opponent": "Scotland",
-        "home_away": "A",
-        "score": "1-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-28",
-        "opponent": "South Korea",
-        "home_away": "A",
-        "score": "4-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-01-10",
-        "opponent": "Egypt",
-        "home_away": "A",
-        "score": "2-3",
-        "result": "L",
-        "competition": "Africa Cup of Nations"
-      },
-      {
-        "date": "2026-01-06",
-        "opponent": "Burkina Faso",
-        "home_away": "H",
-        "score": "3-0",
-        "result": "W",
-        "competition": "Africa Cup of Nations"
-      },
-      {
-        "date": "2025-12-31",
-        "opponent": "Gabon",
-        "home_away": "A",
-        "score": "3-2",
-        "result": "W",
-        "competition": "Africa Cup of Nations"
-      },
-      {
-        "date": "2025-12-28",
-        "opponent": "Cameroon",
-        "home_away": "H",
-        "score": "1-1",
-        "result": "D",
-        "competition": "Africa Cup of Nations"
-      },
-      {
-        "date": "2025-12-24",
-        "opponent": "Mozambique",
-        "home_away": "H",
-        "score": "1-0",
-        "result": "W",
-        "competition": "Africa Cup of Nations"
-      },
-      {
-        "date": "2025-11-18",
-        "opponent": "Oman",
-        "home_away": "A",
-        "score": "2-0",
-        "result": "W",
-        "competition": "Friendlies"
-      }
-    ]
-  },
-  "Cameroon": {
-    "team_id": 1530,
-    "matches": [
-      {
-        "date": "2026-03-31",
-        "opponent": "China",
-        "home_away": "A",
-        "score": "2-0",
-        "result": "W",
-        "competition": "FIFA Series"
-      },
-      {
-        "date": "2026-03-27",
-        "opponent": "Australia",
-        "home_away": "A",
-        "score": "0-1",
-        "result": "L",
-        "competition": "FIFA Series"
-      },
-      {
-        "date": "2026-01-09",
-        "opponent": "Morocco",
-        "home_away": "H",
-        "score": "0-2",
-        "result": "L",
-        "competition": "Africa Cup of Nations"
-      },
-      {
-        "date": "2026-01-04",
-        "opponent": "South Africa",
-        "home_away": "A",
-        "score": "2-1",
-        "result": "W",
-        "competition": "Africa Cup of Nations"
-      },
-      {
-        "date": "2025-12-31",
-        "opponent": "Mozambique",
-        "home_away": "A",
-        "score": "2-1",
-        "result": "W",
-        "competition": "Africa Cup of Nations"
-      },
-      {
-        "date": "2025-12-28",
-        "opponent": "Ivory Coast",
-        "home_away": "A",
-        "score": "1-1",
-        "result": "D",
-        "competition": "Africa Cup of Nations"
-      },
-      {
-        "date": "2025-12-24",
-        "opponent": "Gabon",
-        "home_away": "H",
-        "score": "1-0",
-        "result": "W",
-        "competition": "Africa Cup of Nations"
-      },
-      {
-        "date": "2025-11-13",
-        "opponent": "Congo DR",
-        "home_away": "H",
-        "score": "0-1",
-        "result": "L",
-        "competition": "World Cup - Qualification Africa"
-      },
-      {
-        "date": "2025-10-13",
-        "opponent": "Angola",
-        "home_away": "H",
-        "score": "0-0",
-        "result": "D",
-        "competition": "World Cup - Qualification Africa"
-      },
-      {
-        "date": "2025-10-08",
-        "opponent": "Mauritius",
-        "home_away": "A",
-        "score": "2-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Africa"
-      }
-    ]
-  },
-  "South Africa": {
-    "team_id": 1531,
-    "matches": [
-      {
-        "date": "2026-06-06",
-        "opponent": "Jamaica",
-        "home_away": "A",
-        "score": "1-1",
-        "result": "D",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-05-29",
-        "opponent": "Nicaragua",
-        "home_away": "H",
-        "score": "0-0",
-        "result": "D",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-31",
-        "opponent": "Panama",
-        "home_away": "H",
-        "score": "1-2",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-27",
-        "opponent": "Panama",
-        "home_away": "H",
-        "score": "1-1",
-        "result": "D",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-01-04",
-        "opponent": "Cameroon",
-        "home_away": "H",
-        "score": "1-2",
-        "result": "L",
-        "competition": "Africa Cup of Nations"
-      },
-      {
-        "date": "2025-12-29",
-        "opponent": "Zimbabwe",
-        "home_away": "A",
-        "score": "3-2",
-        "result": "W",
-        "competition": "Africa Cup of Nations"
-      },
-      {
-        "date": "2025-12-26",
-        "opponent": "Egypt",
-        "home_away": "A",
-        "score": "0-1",
-        "result": "L",
-        "competition": "Africa Cup of Nations"
-      },
-      {
-        "date": "2025-12-22",
-        "opponent": "Angola",
-        "home_away": "H",
-        "score": "2-1",
-        "result": "W",
-        "competition": "Africa Cup of Nations"
-      },
-      {
-        "date": "2025-12-16",
-        "opponent": "Ghana B",
-        "home_away": "H",
-        "score": "1-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-11-15",
-        "opponent": "Zambia",
-        "home_away": "H",
-        "score": "3-1",
-        "result": "W",
-        "competition": "Friendlies"
-      }
-    ]
-  },
-  "DR Congo": {
-    "team_id": 1508,
-    "matches": [
-      {
-        "date": "2026-06-03",
-        "opponent": "Denmark",
-        "home_away": "H",
-        "score": "0-0",
-        "result": "D",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-31",
-        "opponent": "Jamaica",
-        "home_away": "H",
-        "score": "1-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Intercontinental Play-offs"
-      },
-      {
-        "date": "2026-03-25",
-        "opponent": "Bermuda",
-        "home_away": "H",
-        "score": "2-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-01-06",
-        "opponent": "Algeria",
-        "home_away": "A",
-        "score": "0-1",
-        "result": "L",
-        "competition": "Africa Cup of Nations"
-      },
-      {
-        "date": "2025-12-30",
-        "opponent": "Botswana",
-        "home_away": "A",
-        "score": "3-0",
-        "result": "W",
-        "competition": "Africa Cup of Nations"
-      },
-      {
-        "date": "2025-12-27",
-        "opponent": "Senegal",
-        "home_away": "A",
-        "score": "1-1",
-        "result": "D",
-        "competition": "Africa Cup of Nations"
-      },
-      {
-        "date": "2025-12-23",
-        "opponent": "Benin",
-        "home_away": "H",
-        "score": "1-0",
-        "result": "W",
-        "competition": "Africa Cup of Nations"
-      },
-      {
-        "date": "2025-12-16",
-        "opponent": "Zambia",
-        "home_away": "H",
-        "score": "2-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-11-16",
-        "opponent": "Nigeria",
-        "home_away": "A",
-        "score": "1-1",
-        "result": "W",
-        "competition": "World Cup - Qualification Africa",
-        "note": "won 4-3 on penalties"
-      },
-      {
-        "date": "2025-11-13",
-        "opponent": "Cameroon",
-        "home_away": "A",
-        "score": "1-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Africa"
-      }
-    ]
-  },
-  "Tunisia": {
-    "team_id": 28,
-    "matches": [
-      {
-        "date": "2026-06-06",
-        "opponent": "Belgium",
-        "home_away": "A",
-        "score": "0-5",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-06-01",
-        "opponent": "Austria",
-        "home_away": "A",
-        "score": "0-1",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-31",
-        "opponent": "Canada",
-        "home_away": "A",
-        "score": "0-0",
-        "result": "D",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-29",
-        "opponent": "Haiti",
-        "home_away": "A",
-        "score": "1-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-01-03",
-        "opponent": "Mali",
-        "home_away": "A",
-        "score": "1-1",
-        "result": "L",
-        "competition": "Africa Cup of Nations",
-        "note": "lost 2-3 on penalties"
-      },
-      {
-        "date": "2025-12-30",
-        "opponent": "Tanzania",
-        "home_away": "A",
-        "score": "1-1",
-        "result": "D",
-        "competition": "Africa Cup of Nations"
-      },
-      {
-        "date": "2025-12-27",
-        "opponent": "Nigeria",
-        "home_away": "A",
-        "score": "2-3",
-        "result": "L",
-        "competition": "Africa Cup of Nations"
-      },
-      {
-        "date": "2025-12-23",
-        "opponent": "Uganda",
-        "home_away": "H",
-        "score": "3-1",
-        "result": "W",
-        "competition": "Africa Cup of Nations"
-      },
-      {
-        "date": "2025-12-07",
-        "opponent": "Qatar",
-        "home_away": "A",
-        "score": "3-0",
-        "result": "W",
-        "competition": "Arab Cup"
-      },
-      {
-        "date": "2025-12-04",
-        "opponent": "Palestine",
-        "home_away": "A",
-        "score": "2-2",
-        "result": "D",
-        "competition": "Arab Cup"
-      }
-    ]
-  },
-  "Mali": {
-    "team_id": 1500,
-    "matches": [
-      {
-        "date": "2026-06-04",
-        "opponent": "Iran",
-        "home_away": "A",
-        "score": "0-2",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-31",
-        "opponent": "Russia",
-        "home_away": "A",
-        "score": "0-0",
-        "result": "D",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-01-09",
-        "opponent": "Senegal",
-        "home_away": "H",
-        "score": "0-1",
-        "result": "L",
-        "competition": "Africa Cup of Nations"
-      },
-      {
-        "date": "2026-01-03",
-        "opponent": "Tunisia",
-        "home_away": "H",
-        "score": "1-1",
-        "result": "W",
-        "competition": "Africa Cup of Nations",
-        "note": "won 3-2 on penalties"
-      },
-      {
-        "date": "2025-12-29",
-        "opponent": "Comoros",
-        "home_away": "A",
-        "score": "0-0",
-        "result": "D",
-        "competition": "Africa Cup of Nations"
-      },
-      {
-        "date": "2025-12-26",
-        "opponent": "Morocco",
-        "home_away": "A",
-        "score": "1-1",
-        "result": "D",
-        "competition": "Africa Cup of Nations"
-      },
-      {
-        "date": "2025-12-22",
-        "opponent": "Zambia",
-        "home_away": "H",
-        "score": "1-1",
-        "result": "D",
-        "competition": "Africa Cup of Nations"
-      },
-      {
-        "date": "2025-11-18",
-        "opponent": "Jordan",
-        "home_away": "A",
-        "score": "0-0",
-        "result": "D",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-10-12",
-        "opponent": "Madagascar",
-        "home_away": "H",
-        "score": "4-1",
-        "result": "W",
-        "competition": "World Cup - Qualification Africa"
-      },
-      {
-        "date": "2025-10-08",
-        "opponent": "Chad",
-        "home_away": "A",
-        "score": "2-0",
-        "result": "W",
-        "competition": "World Cup - Qualification Africa"
-      }
-    ]
-  },
-  "Japan": {
-    "team_id": 12,
-    "matches": [
-      {
-        "date": "2026-05-31",
-        "opponent": "Iceland",
-        "home_away": "H",
-        "score": "1-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-31",
-        "opponent": "England",
-        "home_away": "A",
-        "score": "1-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-28",
-        "opponent": "Scotland",
-        "home_away": "A",
-        "score": "1-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-11-18",
-        "opponent": "Bolivia",
-        "home_away": "H",
-        "score": "3-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-11-14",
-        "opponent": "Ghana",
-        "home_away": "H",
-        "score": "2-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-10-14",
-        "opponent": "Brazil",
-        "home_away": "H",
-        "score": "3-2",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-10-10",
-        "opponent": "Paraguay",
-        "home_away": "H",
-        "score": "2-2",
-        "result": "D",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-09-09",
-        "opponent": "USA",
-        "home_away": "A",
-        "score": "0-2",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-09-07",
-        "opponent": "Mexico",
-        "home_away": "A",
-        "score": "0-0",
-        "result": "D",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-07-15",
-        "opponent": "South Korea",
-        "home_away": "A",
-        "score": "1-0",
-        "result": "W",
-        "competition": "EAFF E-1 Football Championship"
-      }
-    ]
-  },
-  "South Korea": {
-    "team_id": 17,
-    "matches": [
-      {
-        "date": "2026-06-04",
-        "opponent": "El Salvador",
-        "home_away": "H",
-        "score": "1-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-05-31",
-        "opponent": "Trinidad and Tobago",
-        "home_away": "H",
-        "score": "5-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-31",
-        "opponent": "Austria",
-        "home_away": "A",
-        "score": "0-1",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-28",
-        "opponent": "Ivory Coast",
-        "home_away": "H",
         "score": "0-4",
-        "result": "L",
-        "competition": "Friendlies"
+        "p": 0.0687
       },
       {
-        "date": "2025-11-18",
-        "opponent": "Ghana",
-        "home_away": "H",
-        "score": "1-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-11-14",
-        "opponent": "Bolivia",
-        "home_away": "H",
-        "score": "2-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-10-14",
-        "opponent": "Paraguay",
-        "home_away": "H",
-        "score": "2-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-10-10",
-        "opponent": "Brazil",
-        "home_away": "H",
-        "score": "0-5",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-09-10",
-        "opponent": "Mexico",
-        "home_away": "A",
-        "score": "2-2",
-        "result": "D",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-09-06",
-        "opponent": "USA",
-        "home_away": "A",
-        "score": "2-0",
-        "result": "W",
-        "competition": "Friendlies"
-      }
-    ]
-  },
-  "Iran": {
-    "team_id": 22,
-    "matches": [
-      {
-        "date": "2026-06-04",
-        "opponent": "Mali",
-        "home_away": "H",
-        "score": "2-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-05-29",
-        "opponent": "Gambia",
-        "home_away": "H",
-        "score": "3-1",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-31",
-        "opponent": "Costa Rica",
-        "home_away": "A",
-        "score": "5-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-27",
-        "opponent": "Nigeria",
-        "home_away": "H",
-        "score": "1-2",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-11-18",
-        "opponent": "Uzbekistan",
-        "home_away": "A",
-        "score": "0-0",
-        "result": "L",
-        "competition": "Friendlies",
-        "note": "lost 3-4 on penalties"
-      },
-      {
-        "date": "2025-11-13",
-        "opponent": "Cape Verde Islands",
-        "home_away": "H",
-        "score": "0-0",
-        "result": "W",
-        "competition": "Friendlies",
-        "note": "won 5-4 on penalties"
-      },
-      {
-        "date": "2025-10-14",
-        "opponent": "Tanzania",
-        "home_away": "H",
-        "score": "2-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-10-10",
-        "opponent": "Russia",
-        "home_away": "A",
-        "score": "1-2",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-09-08",
-        "opponent": "Uzbekistan",
-        "home_away": "H",
         "score": "0-1",
-        "result": "L",
-        "competition": "CAFA Nations Cup"
-      },
-      {
-        "date": "2025-09-04",
-        "opponent": "Tajikistan",
-        "home_away": "A",
-        "score": "2-2",
-        "result": "D",
-        "competition": "CAFA Nations Cup"
+        "p": 0.0647
       }
-    ]
+    ],
+    "totals": {},
+    "btts": null
   },
-  "Australia": {
-    "team_id": 20,
-    "matches": [
+  {
+    "match_id": 1489420,
+    "home": "Croatia",
+    "away": "Ghana",
+    "moneyline": {
+      "home": 0.5388,
+      "draw": 0.2664,
+      "away": 0.1948
+    },
+    "xg": {
+      "home": 1.673,
+      "away": 0.867
+    },
+    "top_scores": [
       {
-        "date": "2026-06-06",
-        "opponent": "Switzerland",
-        "home_away": "A",
         "score": "1-1",
-        "result": "D",
-        "competition": "Friendlies"
+        "p": 0.1158
       },
       {
-        "date": "2026-05-31",
-        "opponent": "Mexico",
-        "home_away": "A",
-        "score": "0-1",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-31",
-        "opponent": "Curaçao",
-        "home_away": "H",
-        "score": "5-1",
-        "result": "W",
-        "competition": "FIFA Series"
-      },
-      {
-        "date": "2026-03-27",
-        "opponent": "Cameroon",
-        "home_away": "H",
         "score": "1-0",
-        "result": "W",
-        "competition": "FIFA Series"
+        "p": 0.1157
       },
       {
-        "date": "2025-11-19",
-        "opponent": "Colombia",
-        "home_away": "A",
+        "score": "0-0",
+        "p": 0.108
+      },
+      {
+        "score": "2-0",
+        "p": 0.1064
+      },
+      {
+        "score": "2-1",
+        "p": 0.0845
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489422,
+    "home": "Panama",
+    "away": "England",
+    "moneyline": {
+      "home": 0.2015,
+      "draw": 0.2573,
+      "away": 0.5412
+    },
+    "xg": {
+      "home": 0.945,
+      "away": 1.818
+    },
+    "top_scores": [
+      {
+        "score": "1-1",
+        "p": 0.1172
+      },
+      {
+        "score": "0-1",
+        "p": 0.1099
+      },
+      {
+        "score": "0-0",
+        "p": 0.0899
+      },
+      {
+        "score": "0-2",
+        "p": 0.0873
+      },
+      {
+        "score": "1-2",
+        "p": 0.0813
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489419,
+    "home": "Colombia",
+    "away": "Portugal",
+    "moneyline": {
+      "home": 0.3368,
+      "draw": 0.293,
+      "away": 0.3702
+    },
+    "xg": {
+      "home": 1.191,
+      "away": 1.257
+    },
+    "top_scores": [
+      {
+        "score": "1-1",
+        "p": 0.1286
+      },
+      {
+        "score": "0-0",
+        "p": 0.1153
+      },
+      {
+        "score": "0-1",
+        "p": 0.0983
+      },
+      {
+        "score": "1-0",
+        "p": 0.0942
+      },
+      {
+        "score": "0-2",
+        "p": 0.0697
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1539013,
+    "home": "DR Congo",
+    "away": "Uzbekistan",
+    "moneyline": {
+      "home": 0.377,
+      "draw": 0.3875,
+      "away": 0.2355
+    },
+    "xg": {
+      "home": 0.893,
+      "away": 0.633
+    },
+    "top_scores": [
+      {
+        "score": "0-0",
+        "p": 0.2432
+      },
+      {
+        "score": "1-0",
+        "p": 0.175
+      },
+      {
+        "score": "1-1",
+        "p": 0.1245
+      },
+      {
+        "score": "0-1",
+        "p": 0.124
+      },
+      {
+        "score": "2-0",
+        "p": 0.0859
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489418,
+    "home": "Algeria",
+    "away": "Austria",
+    "moneyline": {
+      "home": 0.5302,
+      "draw": 0.2733,
+      "away": 0.1965
+    },
+    "xg": {
+      "home": 1.574,
+      "away": 0.829
+    },
+    "top_scores": [
+      {
+        "score": "1-0",
+        "p": 0.137
+      },
+      {
+        "score": "1-1",
+        "p": 0.1191
+      },
+      {
+        "score": "0-0",
+        "p": 0.1158
+      },
+      {
+        "score": "2-0",
+        "p": 0.1077
+      },
+      {
+        "score": "2-1",
+        "p": 0.0775
+      }
+    ],
+    "totals": {},
+    "btts": null
+  },
+  {
+    "match_id": 1489421,
+    "home": "Jordan",
+    "away": "Argentina",
+    "moneyline": {
+      "home": 0.1228,
+      "draw": 0.2103,
+      "away": 0.6669
+    },
+    "xg": {
+      "home": 0.764,
+      "away": 2.189
+    },
+    "top_scores": [
+      {
+        "score": "0-2",
+        "p": 0.1144
+      },
+      {
+        "score": "0-1",
+        "p": 0.11
+      },
+      {
+        "score": "1-1",
+        "p": 0.0921
+      },
+      {
+        "score": "0-0",
+        "p": 0.0818
+      },
+      {
         "score": "0-3",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-11-15",
-        "opponent": "Venezuela",
-        "home_away": "A",
-        "score": "0-1",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-10-15",
-        "opponent": "USA",
-        "home_away": "A",
-        "score": "1-2",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-10-10",
-        "opponent": "Canada",
-        "home_away": "A",
-        "score": "1-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-09-09",
-        "opponent": "New Zealand",
-        "home_away": "A",
-        "score": "3-1",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-09-05",
-        "opponent": "New Zealand",
-        "home_away": "H",
-        "score": "1-0",
-        "result": "W",
-        "competition": "Friendlies"
+        "p": 0.0814
       }
-    ]
-  },
-  "Saudi Arabia": {
-    "team_id": 23,
-    "matches": [
-      {
-        "date": "2026-06-05",
-        "opponent": "Puerto Rico",
-        "home_away": "A",
-        "score": "3-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-05-31",
-        "opponent": "Ecuador",
-        "home_away": "A",
-        "score": "1-2",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-31",
-        "opponent": "Serbia",
-        "home_away": "A",
-        "score": "1-2",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-27",
-        "opponent": "Egypt",
-        "home_away": "H",
-        "score": "0-4",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-12-15",
-        "opponent": "Jordan",
-        "home_away": "H",
-        "score": "0-1",
-        "result": "L",
-        "competition": "Arab Cup"
-      },
-      {
-        "date": "2025-12-11",
-        "opponent": "Palestine",
-        "home_away": "A",
-        "score": "2-1",
-        "result": "W",
-        "competition": "Arab Cup"
-      },
-      {
-        "date": "2025-12-08",
-        "opponent": "Morocco",
-        "home_away": "A",
-        "score": "0-1",
-        "result": "L",
-        "competition": "Arab Cup"
-      },
-      {
-        "date": "2025-12-05",
-        "opponent": "Comoros",
-        "home_away": "A",
-        "score": "3-1",
-        "result": "W",
-        "competition": "Arab Cup"
-      },
-      {
-        "date": "2025-12-02",
-        "opponent": "Oman",
-        "home_away": "H",
-        "score": "2-1",
-        "result": "W",
-        "competition": "Arab Cup"
-      },
-      {
-        "date": "2025-11-18",
-        "opponent": "Algeria",
-        "home_away": "H",
-        "score": "0-2",
-        "result": "L",
-        "competition": "Friendlies"
-      }
-    ]
-  },
-  "Uzbekistan": {
-    "team_id": 1568,
-    "matches": [
-      {
-        "date": "2026-06-08",
-        "opponent": "Netherlands",
-        "home_away": "A",
-        "score": "1-2",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-06-02",
-        "opponent": "Canada",
-        "home_away": "A",
-        "score": "0-2",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-30",
-        "opponent": "Venezuela",
-        "home_away": "H",
-        "score": "0-0",
-        "result": "W",
-        "competition": "FIFA Series",
-        "note": "won 5-4 on penalties"
-      },
-      {
-        "date": "2026-03-27",
-        "opponent": "Gabon",
-        "home_away": "H",
-        "score": "3-1",
-        "result": "W",
-        "competition": "FIFA Series"
-      },
-      {
-        "date": "2026-01-30",
-        "opponent": "FC Urartu",
-        "home_away": "H",
-        "score": "4-2",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-01-26",
-        "opponent": "China",
-        "home_away": "H",
-        "score": "2-2",
-        "result": "D",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-11-18",
-        "opponent": "Iran",
-        "home_away": "H",
-        "score": "0-0",
-        "result": "W",
-        "competition": "Friendlies",
-        "note": "won 4-3 on penalties"
-      },
-      {
-        "date": "2025-11-14",
-        "opponent": "Egypt",
-        "home_away": "H",
-        "score": "2-0",
-        "result": "W",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-10-13",
-        "opponent": "Uruguay",
-        "home_away": "H",
-        "score": "1-2",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-10-09",
-        "opponent": "Kuwait",
-        "home_away": "H",
-        "score": "2-0",
-        "result": "W",
-        "competition": "Friendlies"
-      }
-    ]
-  },
-  "Jordan": {
-    "team_id": 1548,
-    "matches": [
-      {
-        "date": "2026-06-07",
-        "opponent": "Colombia",
-        "home_away": "A",
-        "score": "0-2",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-05-31",
-        "opponent": "Switzerland",
-        "home_away": "A",
-        "score": "1-4",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-31",
-        "opponent": "Nigeria",
-        "home_away": "H",
-        "score": "2-2",
-        "result": "D",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-27",
-        "opponent": "Costa Rica",
-        "home_away": "H",
-        "score": "2-2",
-        "result": "D",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-12-18",
-        "opponent": "Morocco",
-        "home_away": "H",
-        "score": "2-3",
-        "result": "L",
-        "competition": "Arab Cup"
-      },
-      {
-        "date": "2025-12-15",
-        "opponent": "Saudi Arabia",
-        "home_away": "A",
-        "score": "1-0",
-        "result": "W",
-        "competition": "Arab Cup"
-      },
-      {
-        "date": "2025-12-12",
-        "opponent": "Iraq",
-        "home_away": "H",
-        "score": "1-0",
-        "result": "W",
-        "competition": "Arab Cup"
-      },
-      {
-        "date": "2025-12-09",
-        "opponent": "Egypt",
-        "home_away": "A",
-        "score": "3-0",
-        "result": "W",
-        "competition": "Arab Cup"
-      },
-      {
-        "date": "2025-12-06",
-        "opponent": "Kuwait",
-        "home_away": "A",
-        "score": "3-1",
-        "result": "W",
-        "competition": "Arab Cup"
-      },
-      {
-        "date": "2025-12-03",
-        "opponent": "United Arab Emirates",
-        "home_away": "H",
-        "score": "2-1",
-        "result": "W",
-        "competition": "Arab Cup"
-      }
-    ]
-  },
-  "Qatar": {
-    "team_id": 1569,
-    "matches": [
-      {
-        "date": "2026-06-06",
-        "opponent": "El Salvador",
-        "home_away": "H",
-        "score": "0-0",
-        "result": "D",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-05-28",
-        "opponent": "Rep. Of Ireland",
-        "home_away": "A",
-        "score": "0-1",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-12-07",
-        "opponent": "Tunisia",
-        "home_away": "H",
-        "score": "0-3",
-        "result": "L",
-        "competition": "Arab Cup"
-      },
-      {
-        "date": "2025-12-04",
-        "opponent": "Syria",
-        "home_away": "A",
-        "score": "1-1",
-        "result": "D",
-        "competition": "Arab Cup"
-      },
-      {
-        "date": "2025-12-01",
-        "opponent": "Palestine",
-        "home_away": "H",
-        "score": "0-1",
-        "result": "L",
-        "competition": "Arab Cup"
-      },
-      {
-        "date": "2025-11-17",
-        "opponent": "Zimbabwe",
-        "home_away": "H",
-        "score": "1-2",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-10-14",
-        "opponent": "United Arab Emirates",
-        "home_away": "H",
-        "score": "2-1",
-        "result": "W",
-        "competition": "World Cup - Qualification Asia"
-      },
-      {
-        "date": "2025-10-08",
-        "opponent": "Oman",
-        "home_away": "A",
-        "score": "0-0",
-        "result": "D",
-        "competition": "World Cup - Qualification Asia"
-      },
-      {
-        "date": "2025-09-07",
-        "opponent": "Russia",
-        "home_away": "H",
-        "score": "1-4",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-09-03",
-        "opponent": "Bahrain",
-        "home_away": "H",
-        "score": "2-2",
-        "result": "D",
-        "competition": "Friendlies"
-      }
-    ]
-  },
-  "New Zealand": {
-    "team_id": 4673,
-    "matches": [
-      {
-        "date": "2026-06-06",
-        "opponent": "England",
-        "home_away": "A",
-        "score": "0-1",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-06-03",
-        "opponent": "Haiti",
-        "home_away": "A",
-        "score": "0-4",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2026-03-30",
-        "opponent": "Chile",
-        "home_away": "H",
-        "score": "4-1",
-        "result": "W",
-        "competition": "FIFA Series"
-      },
-      {
-        "date": "2026-03-27",
-        "opponent": "Finland",
-        "home_away": "H",
-        "score": "0-2",
-        "result": "L",
-        "competition": "FIFA Series"
-      },
-      {
-        "date": "2025-11-19",
-        "opponent": "Ecuador",
-        "home_away": "A",
-        "score": "0-2",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-11-16",
-        "opponent": "Colombia",
-        "home_away": "A",
-        "score": "1-2",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-10-14",
-        "opponent": "Norway",
-        "home_away": "A",
-        "score": "1-1",
-        "result": "D",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-10-09",
-        "opponent": "Poland",
-        "home_away": "A",
-        "score": "0-1",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-09-09",
-        "opponent": "Australia",
-        "home_away": "H",
-        "score": "1-3",
-        "result": "L",
-        "competition": "Friendlies"
-      },
-      {
-        "date": "2025-09-05",
-        "opponent": "Australia",
-        "home_away": "A",
-        "score": "0-1",
-        "result": "L",
-        "competition": "Friendlies"
-      }
-    ]
+    ],
+    "totals": {},
+    "btts": null
   }
-}
+]
