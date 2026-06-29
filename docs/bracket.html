@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>WC2026 Knockout Bracket Prediction</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #0d1117; color: #e6edf3; font-family: 'Segoe UI', system-ui, sans-serif; }
+header { background: #161b22; border-bottom: 1px solid #30363d; padding: 20px 24px; text-align: center; }
+header h1 { font-size: 1.8rem; font-weight: 800; color: #f0c040; letter-spacing: -.02em; }
+header .sub { font-size: .82rem; color: #8b949e; margin-top: 4px; }
+main { max-width: 1400px; margin: 0 auto; padding: 24px; }
+
+.stage-title { font-size: .7rem; font-weight: 700; text-transform: uppercase;
+  letter-spacing: .2em; color: #8b949e; margin: 32px 0 12px; padding-bottom: 6px;
+  border-bottom: 1px solid #30363d; }
+
+/* grid layouts per stage */
+.grid-r32  { display: grid; grid-template-columns: repeat(8, 1fr); gap: 8px; }
+.grid-r16  { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-top: 8px; }
+.grid-qf   { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-top: 8px; }
+.grid-sf   { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-top: 8px; }
+.grid-f3   { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 8px; }
+
+.slot-label { font-size: .65rem; color: #6e7681; margin-bottom: 4px; text-align: center; }
+
+/* match card */
+.mc { background: #161b22; border: 1px solid #30363d; border-radius: 8px;
+  padding: 10px 8px; display: flex; flex-direction: column; gap: 4px; }
+.mc.final  { border-color: #f0c040; background: #1c1a0e; }
+.mc.sf     { border-color: #58a6ff; background: #0d1a2e; }
+.mc.qf     { border-color: #3fb950; background: #0d1e14; }
+.mc.third  { border-color: #bc8cff; background: #1a0d2e; }
+
+.mc-team { display: flex; align-items: center; gap: 6px; padding: 4px 6px;
+  border-radius: 5px; }
+.mc-team.winner { background: rgba(56,139,253,.15); }
+.mc-team.loser  { opacity: .55; }
+.fl { font-size: 1.1rem; flex-shrink: 0; }
+.tn { font-size: .78rem; font-weight: 600; flex: 1; white-space: nowrap;
+  overflow: hidden; text-overflow: ellipsis; }
+.adv { color: #58a6ff; font-size: .75rem; margin-left: auto; }
+
+.mc-score { text-align: center; padding: 2px 0; }
+.sc { font-size: .85rem; font-weight: 700; color: #e6edf3; display: block; }
+.wp { font-size: .68rem; color: #8b949e; }
+
+/* champion box */
+.champion-box { background: linear-gradient(135deg,#1c1a0e,#2d2600);
+  border: 2px solid #f0c040; border-radius: 12px; padding: 24px;
+  text-align: center; margin-top: 32px; }
+.champion-box .trophy { font-size: 3rem; }
+.champion-box h2 { font-size: 1.1rem; color: #8b949e; margin: 8px 0 4px; }
+.champion-box .name { font-size: 2rem; font-weight: 900; color: #f0c040; }
+.champion-box .odds { font-size: .9rem; color: #8b949e; margin-top: 6px; }
+
+footer { text-align: center; font-size: .75rem; color: #6e7681;
+  padding: 24px; border-top: 1px solid #21262d; margin-top: 32px; }
+
+@media (max-width: 900px) {
+  .grid-r32 { grid-template-columns: repeat(4,1fr); }
+  .grid-r16 { grid-template-columns: repeat(2,1fr); }
+  .grid-qf  { grid-template-columns: repeat(2,1fr); }
+}
+@media (max-width: 600px) {
+  .grid-r32 { grid-template-columns: repeat(2,1fr); }
+  .grid-r16, .grid-qf, .grid-sf, .grid-f3 { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>&#127942; World Cup 2026 — Knockout Bracket</h1>
+  <div class="sub">Most likely outcome per match · Dixon-Coles NB model · 100,000 simulations · 2026-06-29</div>
+</header>
+<main>
+
+<div class="stage-title">&#9654; Round of 32</div>
+<div class="grid-r32"><div class="slot"><div class="mc r32">
+  <div class="mc-team loser">
+    <span class="fl">🇿🇦</span>
+    <span class="tn">South Africa</span>
+    
+  </div>
+  <div class="mc-score">
+    <span class="sc">0-1</span>
+    <span class="wp">75%</span>
+  </div>
+  <div class="mc-team winner">
+    <span class="fl">🇨🇦</span>
+    <span class="tn">Canada</span>
+    <span class="adv">&#9654;</span>
+  </div>
+</div></div>
+<div class="slot"><div class="mc r32">
+  <div class="mc-team winner">
+    <span class="fl">🇩🇪</span>
+    <span class="tn">Germany</span>
+    <span class="adv">&#9654;</span>
+  </div>
+  <div class="mc-score">
+    <span class="sc">1-1(pen)</span>
+    <span class="wp">74%</span>
+  </div>
+  <div class="mc-team loser">
+    <span class="fl">🇵🇾</span>
+    <span class="tn">Paraguay</span>
+    
+  </div>
+</div></div>
+<div class="slot"><div class="mc r32">
+  <div class="mc-team loser">
+    <span class="fl">🇳🇱</span>
+    <span class="tn">Netherlands</span>
+    
+  </div>
+  <div class="mc-score">
+    <span class="sc">1-1(pen)</span>
+    <span class="wp">63%</span>
+  </div>
+  <div class="mc-team winner">
+    <span class="fl">🇲🇦</span>
+    <span class="tn">Morocco</span>
+    <span class="adv">&#9654;</span>
+  </div>
+</div></div>
+<div class="slot"><div class="mc r32">
+  <div class="mc-team winner">
+    <span class="fl">🇧🇷</span>
+    <span class="tn">Brazil</span>
+    <span class="adv">&#9654;</span>
+  </div>
+  <div class="mc-score">
+    <span class="sc">1-0</span>
+    <span class="wp">75%</span>
+  </div>
+  <div class="mc-team loser">
+    <span class="fl">🇯🇵</span>
+    <span class="tn">Japan</span>
+    
+  </div>
+</div></div>
+<div class="slot"><div class="mc r32">
+  <div class="mc-team winner">
+    <span class="fl">🇫🇷</span>
+    <span class="tn">France</span>
+    <span class="adv">&#9654;</span>
+  </div>
+  <div class="mc-score">
+    <span class="sc">2-1</span>
+    <span class="wp">64%</span>
+  </div>
+  <div class="mc-team loser">
+    <span class="fl">🇸🇪</span>
+    <span class="tn">Sweden</span>
+    
+  </div>
+</div></div>
+<div class="slot"><div class="mc r32">
+  <div class="mc-team loser">
+    <span class="fl">🇨🇮</span>
+    <span class="tn">Ivory Coast</span>
+    
+  </div>
+  <div class="mc-score">
+    <span class="sc">1-1(pen)</span>
+    <span class="wp">60%</span>
+  </div>
+  <div class="mc-team winner">
+    <span class="fl">🇳🇴</span>
+    <span class="tn">Norway</span>
+    <span class="adv">&#9654;</span>
+  </div>
+</div></div>
+<div class="slot"><div class="mc r32">
+  <div class="mc-team winner">
+    <span class="fl">🇲🇽</span>
+    <span class="tn">Mexico</span>
+    <span class="adv">&#9654;</span>
+  </div>
+  <div class="mc-score">
+    <span class="sc">1-0</span>
+    <span class="wp">80%</span>
+  </div>
+  <div class="mc-team loser">
+    <span class="fl">🇪🇨</span>
+    <span class="tn">Ecuador</span>
+    
+  </div>
+</div></div>
+<div class="slot"><div class="mc r32">
+  <div class="mc-team winner">
+    <span class="fl">🏴󠁧󠁢󠁥󠁮󠁧󠁿</span>
+    <span class="tn">England</span>
+    <span class="adv">&#9654;</span>
+  </div>
+  <div class="mc-score">
+    <span class="sc">0-0(pen)</span>
+    <span class="wp">58%</span>
+  </div>
+  <div class="mc-team loser">
+    <span class="fl">🇨🇩</span>
+    <span class="tn">DR Congo</span>
+    
+  </div>
+</div></div>
+<div class="slot"><div class="mc r32">
+  <div class="mc-team winner">
+    <span class="fl">🇺🇸</span>
+    <span class="tn">United States</span>
+    <span class="adv">&#9654;</span>
+  </div>
+  <div class="mc-score">
+    <span class="sc">2-1</span>
+    <span class="wp">83%</span>
+  </div>
+  <div class="mc-team loser">
+    <span class="fl">🇧🇦</span>
+    <span class="tn">Bosnia and Herzegovina</span>
+    
+  </div>
+</div></div>
+<div class="slot"><div class="mc r32">
+  <div class="mc-team winner">
+    <span class="fl">🇧🇪</span>
+    <span class="tn">Belgium</span>
+    <span class="adv">&#9654;</span>
+  </div>
+  <div class="mc-score">
+    <span class="sc">1-1(pen)</span>
+    <span class="wp">62%</span>
+  </div>
+  <div class="mc-team loser">
+    <span class="fl">🇸🇳</span>
+    <span class="tn">Senegal</span>
+    
+  </div>
+</div></div>
+<div class="slot"><div class="mc r32">
+  <div class="mc-team winner">
+    <span class="fl">🇵🇹</span>
+    <span class="tn">Portugal</span>
+    <span class="adv">&#9654;</span>
+  </div>
+  <div class="mc-score">
+    <span class="sc">2-0</span>
+    <span class="wp">79%</span>
+  </div>
+  <div class="mc-team loser">
+    <span class="fl">🇭🇷</span>
+    <span class="tn">Croatia</span>
+    
+  </div>
+</div></div>
+<div class="slot"><div class="mc r32">
+  <div class="mc-team winner">
+    <span class="fl">🇪🇸</span>
+    <span class="tn">Spain</span>
+    <span class="adv">&#9654;</span>
+  </div>
+  <div class="mc-score">
+    <span class="sc">2-0</span>
+    <span class="wp">86%</span>
+  </div>
+  <div class="mc-team loser">
+    <span class="fl">🇦🇹</span>
+    <span class="tn">Austria</span>
+    
+  </div>
+</div></div>
+<div class="slot"><div class="mc r32">
+  <div class="mc-team winner">
+    <span class="fl">🇨🇭</span>
+    <span class="tn">Switzerland</span>
+    <span class="adv">&#9654;</span>
+  </div>
+  <div class="mc-score">
+    <span class="sc">1-1(pen)</span>
+    <span class="wp">61%</span>
+  </div>
+  <div class="mc-team loser">
+    <span class="fl">🇩🇿</span>
+    <span class="tn">Algeria</span>
+    
+  </div>
+</div></div>
+<div class="slot"><div class="mc r32">
+  <div class="mc-team winner">
+    <span class="fl">🇦🇷</span>
+    <span class="tn">Argentina</span>
+    <span class="adv">&#9654;</span>
+  </div>
+  <div class="mc-score">
+    <span class="sc">1-0</span>
+    <span class="wp">81%</span>
+  </div>
+  <div class="mc-team loser">
+    <span class="fl">🇨🇻</span>
+    <span class="tn">Cape Verde</span>
+    
+  </div>
+</div></div>
+<div class="slot"><div class="mc r32">
+  <div class="mc-team winner">
+    <span class="fl">🇨🇴</span>
+    <span class="tn">Colombia</span>
+    <span class="adv">&#9654;</span>
+  </div>
+  <div class="mc-score">
+    <span class="sc">1-0</span>
+    <span class="wp">80%</span>
+  </div>
+  <div class="mc-team loser">
+    <span class="fl">🇬🇭</span>
+    <span class="tn">Ghana</span>
+    
+  </div>
+</div></div>
+<div class="slot"><div class="mc r32">
+  <div class="mc-team loser">
+    <span class="fl">🇦🇺</span>
+    <span class="tn">Australia</span>
+    
+  </div>
+  <div class="mc-score">
+    <span class="sc">0-0(pen)</span>
+    <span class="wp">60%</span>
+  </div>
+  <div class="mc-team winner">
+    <span class="fl">🇪🇬</span>
+    <span class="tn">Egypt</span>
+    <span class="adv">&#9654;</span>
+  </div>
+</div></div>
+</div>
+
+<div class="stage-title">&#9654; Round of 16</div>
+<div class="grid-r16"><div class="slot">
+  <div class="slot-label">W73 vs W75</div>
+  <div class="mc r16">
+  <div class="mc-team winner">
+    <span class="fl">🇨🇦</span>
+    <span class="tn">Canada</span>
+    <span class="adv">&#9654;</span>
+  </div>
+  <div class="mc-score">
+    <span class="sc">2-1</span>
+    <span class="wp">46%</span>
+  </div>
+  <div class="mc-team loser">
+    <span class="fl">🇩🇪</span>
+    <span class="tn">Germany</span>
+    
+  </div>
+</div>
+</div>
+<div class="slot">
+  <div class="slot-label">W77 vs W79</div>
+  <div class="mc r16">
+  <div class="mc-team loser">
+    <span class="fl">🇲🇦</span>
+    <span class="tn">Morocco</span>
+    
+  </div>
+  <div class="mc-score">
+    <span class="sc">1-2</span>
+    <span class="wp">52%</span>
+  </div>
+  <div class="mc-team winner">
+    <span class="fl">🇧🇷</span>
+    <span class="tn">Brazil</span>
+    <span class="adv">&#9654;</span>
+  </div>
+</div>
+</div>
+<div class="slot">
+  <div class="slot-label">W81 vs W83</div>
+  <div class="mc r16">
+  <div class="mc-team loser">
+    <span class="fl">🇫🇷</span>
+    <span class="tn">France</span>
+    
+  </div>
+  <div class="mc-score">
+    <span class="sc">0-1</span>
+    <span class="wp">27%</span>
+  </div>
+  <div class="mc-team loser">
+    <span class="fl">🇳🇴</span>
+    <span class="tn">Norway</span>
+    
+  </div>
+</div>
+</div>
+<div class="slot">
+  <div class="slot-label">W85 vs W87</div>
+  <div class="mc r16">
+  <div class="mc-team winner">
+    <span class="fl">🇲🇽</span>
+    <span class="tn">Mexico</span>
+    <span class="adv">&#9654;</span>
+  </div>
+  <div class="mc-score">
+    <span class="sc">1-0</span>
+    <span class="wp">61%</span>
+  </div>
+  <div class="mc-team loser">
+    <span class="fl">🏴󠁧󠁢󠁥󠁮󠁧󠁿</span>
+    <span class="tn">England</span>
+    
+  </div>
+</div>
+</div>
+<div class="slot">
+  <div class="slot-label">W89 vs W91</div>
+  <div class="mc r16">
+  <div class="mc-team loser">
+    <span class="fl">🇺🇸</span>
+    <span class="tn">United States</span>
+    
+  </div>
+  <div class="mc-score">
+    <span class="sc">1-2</span>
+    <span class="wp">46%</span>
+  </div>
+  <div class="mc-team winner">
+    <span class="fl">🇧🇪</span>
+    <span class="tn">Belgium</span>
+    <span class="adv">&#9654;</span>
+  </div>
+</div>
+</div>
+<div class="slot">
+  <div class="slot-label">W93 vs W95</div>
+  <div class="mc r16">
+  <div class="mc-team loser">
+    <span class="fl">🇵🇹</span>
+    <span class="tn">Portugal</span>
+    
+  </div>
+  <div class="mc-score">
+    <span class="sc">0-1</span>
+    <span class="wp">54%</span>
+  </div>
+  <div class="mc-team winner">
+    <span class="fl">🇪🇸</span>
+    <span class="tn">Spain</span>
+    <span class="adv">&#9654;</span>
+  </div>
+</div>
+</div>
+<div class="slot">
+  <div class="slot-label">W97 vs W99</div>
+  <div class="mc r16">
+  <div class="mc-team loser">
+    <span class="fl">🇨🇭</span>
+    <span class="tn">Switzerland</span>
+    
+  </div>
+  <div class="mc-score">
+    <span class="sc">0-1</span>
+    <span class="wp">62%</span>
+  </div>
+  <div class="mc-team winner">
+    <span class="fl">🇦🇷</span>
+    <span class="tn">Argentina</span>
+    <span class="adv">&#9654;</span>
+  </div>
+</div>
+</div>
+<div class="slot">
+  <div class="slot-label">W101 vs W103</div>
+  <div class="mc r16">
+  <div class="mc-team winner">
+    <span class="fl">🇨🇴</span>
+    <span class="tn">Colombia</span>
+    <span class="adv">&#9654;</span>
+  </div>
+  <div class="mc-score">
+    <span class="sc">1-0</span>
+    <span class="wp">55%</span>
+  </div>
+  <div class="mc-team loser">
+    <span class="fl">🇪🇬</span>
+    <span class="tn">Egypt</span>
+    
+  </div>
+</div>
+</div>
+</div>
+
+<div class="stage-title">&#9654; Quarter-finals</div>
+<div class="grid-qf"><div class="slot"><div class="mc qf">
+  <div class="mc-team loser">
+    <span class="fl">🇨🇦</span>
+    <span class="tn">Canada</span>
+    
+  </div>
+  <div class="mc-score">
+    <span class="sc">0-2</span>
+    <span class="wp">40%</span>
+  </div>
+  <div class="mc-team winner">
+    <span class="fl">🇧🇷</span>
+    <span class="tn">Brazil</span>
+    <span class="adv">&#9654;</span>
+  </div>
+</div></div>
+<div class="slot"><div class="mc qf">
+  <div class="mc-team loser">
+    <span class="fl">🇨🇮</span>
+    <span class="tn">Ivory Coast</span>
+    
+  </div>
+  <div class="mc-score">
+    <span class="sc">0-1</span>
+    <span class="wp">39%</span>
+  </div>
+  <div class="mc-team winner">
+    <span class="fl">🇲🇽</span>
+    <span class="tn">Mexico</span>
+    <span class="adv">&#9654;</span>
+  </div>
+</div></div>
+<div class="slot"><div class="mc qf">
+  <div class="mc-team loser">
+    <span class="fl">🇧🇪</span>
+    <span class="tn">Belgium</span>
+    
+  </div>
+  <div class="mc-score">
+    <span class="sc">1-2</span>
+    <span class="wp">36%</span>
+  </div>
+  <div class="mc-team winner">
+    <span class="fl">🇪🇸</span>
+    <span class="tn">Spain</span>
+    <span class="adv">&#9654;</span>
+  </div>
+</div></div>
+<div class="slot"><div class="mc qf">
+  <div class="mc-team winner">
+    <span class="fl">🇦🇷</span>
+    <span class="tn">Argentina</span>
+    <span class="adv">&#9654;</span>
+  </div>
+  <div class="mc-score">
+    <span class="sc">1-0</span>
+    <span class="wp">44%</span>
+  </div>
+  <div class="mc-team loser">
+    <span class="fl">🇨🇴</span>
+    <span class="tn">Colombia</span>
+    
+  </div>
+</div></div>
+</div>
+
+<div class="stage-title">&#9654; Semi-finals</div>
+<div class="grid-sf"><div class="slot"><div class="mc sf">
+  <div class="mc-team loser">
+    <span class="fl">🇧🇷</span>
+    <span class="tn">Brazil</span>
+    
+  </div>
+  <div class="mc-score">
+    <span class="sc">0-1</span>
+    <span class="wp">21%</span>
+  </div>
+  <div class="mc-team winner">
+    <span class="fl">🇲🇽</span>
+    <span class="tn">Mexico</span>
+    <span class="adv">&#9654;</span>
+  </div>
+</div></div>
+<div class="slot"><div class="mc sf">
+  <div class="mc-team loser">
+    <span class="fl">🇪🇸</span>
+    <span class="tn">Spain</span>
+    
+  </div>
+  <div class="mc-score">
+    <span class="sc">0-1</span>
+    <span class="wp">26%</span>
+  </div>
+  <div class="mc-team winner">
+    <span class="fl">🇦🇷</span>
+    <span class="tn">Argentina</span>
+    <span class="adv">&#9654;</span>
+  </div>
+</div></div>
+</div>
+
+<div class="stage-title">&#9654; 3rd Place &amp; Final</div>
+<div class="grid-f3">
+  <div><div class="slot-label">3rd Place Match</div><div class="mc third">
+  <div class="mc-team loser">
+    <span class="fl">🇧🇷</span>
+    <span class="tn">Brazil</span>
+    
+  </div>
+  <div class="mc-score">
+    <span class="sc">1-0</span>
+    <span class="wp">12%</span>
+  </div>
+  <div class="mc-team loser">
+    <span class="fl">🇪🇸</span>
+    <span class="tn">Spain</span>
+    
+  </div>
+</div></div>
+  <div><div class="slot-label">&#127942; Final — MetLife Stadium, New Jersey</div><div class="mc final">
+  <div class="mc-team loser">
+    <span class="fl">🇲🇽</span>
+    <span class="tn">Mexico</span>
+    
+  </div>
+  <div class="mc-score">
+    <span class="sc">0-1</span>
+    <span class="wp">15%</span>
+  </div>
+  <div class="mc-team winner">
+    <span class="fl">🇦🇷</span>
+    <span class="tn">Argentina</span>
+    <span class="adv">&#9654;</span>
+  </div>
+</div></div>
+</div>
+
+<div class="champion-box">
+  <div class="trophy">&#127942;</div>
+  <h2>Predicted Champion</h2>
+  <div class="name">🇦🇷 Argentina</div>
+  <div class="odds">Win probability: 15% · based on 100,000 simulations</div>
+</div>
+
+</main>
+<footer>
+  Model: Dixon-Coles Negative Binomial · Dynamic ratings · EA FC 25 lineup OVR · Fatigue/rest covariate<br>
+  Scores show most frequent simulated result (incl. penalty shootouts). Probabilities = % of sims where that team won the match.
+</footer>
+</body>
+</html>
